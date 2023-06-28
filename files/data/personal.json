@@ -1,0 +1,2439 @@
+{
+	"publication_data": [
+		{
+			"id": "Adaptations_Heritage_Reclamation",
+			"title": "Applying Adaptations in Pedagogical Materials for Heritage Language Teaching to Language Reclamation",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"qian-baoqing",
+					"surname": "Qian",
+					"given_name": "Baoqing"
+				},
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2023,
+				"month": 3,
+				"day": 4
+			},
+			"abstract": "While vastly different at a macro level, at an individual level, heritage language learners of Mandarin Chinese in diaspora communities often face similar difficulties to most endangered language communities, such as the lack of monetary resources and incentives, strong political hurdles, and difficulties in engaging with and encouraging cultural identity. Even though Mandarin is the largest language counting by number of L1 speakers, second and third generation Chinese immigrants in the United States have shown signs of onset language attrition and loss of domains of vocabulary outside of home topics. Many K-12 and university programs have acknowledged the uniqueness of Chinese heritage learners and created special tracks for heritage Mandarin learners. Despite the acknowledgement of differences in the needs of ”foreign language” and ”heritage” students, heritage curricula remains greatly influenced by foreign language education and educators who emphasize language learning from a foreign language perspective, and heritage language teachers often find themselves adapting and modifying foreign language curricula in order to cater to heritage language learners.\nIn language planning, minority linguistic communities interested in language reclamation may find themselves adapting models of foreign language teaching in the creation of courses or pedagogical materials. In this presentation, We discuss methods of adaptation used by heritage Mandarin teachers within and around Boston, Massachusetts, particularly relating to material development, topic choice and order, and class design; we further suggest ways in which these methods of adaptation may apply to the adaptation of pedagogical materials in the pursuit of language reclamation. Finally, we suggest ways in which methodologies used by many language reclamation efforts such as the ”Where Are Your Keys?” method may be applied to heritage language pedagogy as a way to distance the reliance of heritage language teaching on foreign-focused language teaching materials.",
+			"venue": "The 8th International Conference on Language Documentation & Conservation (ICLDC 8)",
+			"location": "University of Hawaiʻi at Mānoa",
+			"language": "en",
+			"citation_key": "qian2023applying",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"documentation-pedagogy"
+			]
+		},
+		{
+			"id": "Asking_Knowing_Uyghur",
+			"title": "Asking and Knowing in Uyghur: Syntactic Distinctions between Extensional and Intensional Attitudes",
+			"entry_type": "Lab Presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 10,
+				"day": 21
+			},
+			"abstract": "Uyghur (Turkic) is a wh-in-situ language with three complementation strategies each headed by a distinct particle: dep, liq and ish.\nThis presentation will be on the semantic and syntactic distinctions between the three based on novel data collected with a consultant in Cambridge MA.\nI find that there are restrictions in the syntactic size of interrogative complements under extensional verbs and suggest that this is due to a three-layered syntacto-semantic structure which distinguishes propositions, extensional attitudes, and intensional attitudes.",
+			"venue": "Meaning and Modality Lab Meetings",
+			"location": "Harvard University",
+			"language": "en",
+			"citation_key": "rabinovitch2021askingP",
+			"files": [
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution",
+				"indexical-perspectival-shift"
+			]
+		},
+		{
+			"id": "Client_Side_Web_Corpora",
+			"title": "A Client-Side Web Application for Advanced Searching of Linguistic Corpora",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2023,
+				"month": 3,
+				"day": 4
+			},
+			"abstract": "This presentation discusses the planning and implementation of a client-side powered web-based application for quick advanced searches of linguistic corpora for aid in language documentation, originally developed for the purpose of advanced queries on a FLEx based corpus of Ende (Pahoturi River). The application consists of a query language and an interpreter which takes in a JSON file representing the corpus as input. I discuss the organization of the file format and the structure of the query language as well as how corpora such as those using FLEx, LaTeX, or plaintext files may be processed to fit such a JSON file format to be used for searches.\nThe JSON based file format structures corpus materials into three components: a phrase dictionary, word dictionary, and morph dictionary. The phrase dictionary contains a set of all phrases in the corpus, each with a ‘words’ attribute whose value is defined as an array of IDs for each word in the sentence. The word dictionary contains a set of all words in the corpus with defined IDs and a ‘morph’ attribute whose value is defined as an array of IDs for each morph(eme) in the word. Additionally, entries of each dictionary may contain user defined attributes, such as translations, notes, glosses, and tags. The benefit of such a file structure where individual words and morphemes are represented only once is that file size can be much smaller than the original corpus from which the JSON file is derived without loss of information, allowing faster and less cumbersome file uploading and manipulation.\nThe query language resembles that of SQL, in which tokens are divided into keywords, strings, and numbers, but is run client-side via javascript. Various functions are defined which allow a user to perform advanced filters on the corpus, as well as, manipulate data, display data as two- or three-lined glosses via html, and download subsets of the corpus as a csv file. Emphasis is made on ease of use for the query language such that people inexperienced with coding or linguistics may be able to search corpora with ease. For use with FLEx, the FLEx corpus data is first downloaded into .flextext files, which are converted to ready-to-use JSON via python code. Other methods for conversion from LaTeX and plaintext based corpora are also discussed. All materials are open source and accessible via Github repository.",
+			"venue": "The 8th International Conference on Language Documentation & Conservation (ICLDC 8)",
+			"location": "University of Hawaiʻi at Mānoa",
+			"language": "en",
+			"citation_key": "rabinovitch2023client",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"documentation-pedagogy"
+			]
+		},
+		{
+			"id": "Cross_Uyghur_Prolepsis_Shift",
+			"title": "Cross-Clausal Dependencies and Indexical Shift in Uyghur",
+			"entry_type": "Lab Presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 11,
+				"day": 10
+			},
+			"venue": "SULa Lab",
+			"location": "Boston University",
+			"language": "en",
+			"citation_key": "rabinovitch2022cross",
+			"files": [
+				{
+					"name": "Handout",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"cross-clausal-dependencies",
+				"indexical-perspectival-shift"
+			]
+		},
+		{
+			"id": "Exploration_Knowing_Manchu",
+			"title": "An Exploration of “Knowing” in Manchu",
+			"entry_type": "Blog Post",
+			"review_status": "Edited",
+			"ris_type": "BLOG",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 4,
+				"day": 15
+			},
+			"abstract": "Regardless of the language they speak, people across the world tend to be intent on telling others what they know – and often what they do not know; in writing this blog post, I am no exception. For Manchu speakers seeking to explain what they know, the most common word used to express knowledge (or lack thereof) is the verb sambi. In this blog post, I will cover some of the linguistic intricacies of sambi, including the kinds of structures that can be embedded under it and how Manchu speakers express that they know (or do not know) things. Later I will compare sambi to the English verb “know” and the Chinese word zhidao 知道.",
+			"venue": "Manchu Studies Group Blog",
+			"language": "en",
+			"url": "https://www.manchustudiesgroup.org/2021/04/15/an-exploration-of-knowing-in-manchu/",
+			"citation_key": "rabinovitch2021explorationO",
+			"files": [
+				{
+					"name": "PDF",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution"
+			]
+		},
+		{
+			"id": "Honorific_Truncation_Sibe",
+			"title": "On the Structure and Origin of Honorific Truncation in Sibe",
+			"entry_type": "oral presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 11,
+				"day": 19
+			},
+			"abstract": "Sibe (Tungusic) employs a kind of truncation in the use of honorifics, in which all but the first syllable of the referents name is elided before an honorific title. The coda of these syllables is occasionally elided too, with varying distribution of banned, optional, and mandatory elision. In this paper I argue that this distribution matches what one would expect given resyllabification of Sibe words in Mandarin. I suggest that the truncation template which Sibe speakers internalize for honorifics is historically derived from language contact with Mandarin speakers, who primarily use monosyllabic surnames in their syllables. The template is derived from a Mandarin reinterpretation of a Sibe name, will only the “surname” part remaining. This was then reinterpreted by Sibe speakers as a template for truncation.",
+			"venue": "Language Contact in the Altaic World: A Multiperspective Approach",
+			"location": "Charles University, Prague",
+			"language": "en",
+			"citation_key": "rabinovitch2021structureP",
+			"files": [
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"keywords": [
+				"manchu-morpho-phonology"
+			]
+		},
+		{
+			"id": "Honorific_Truncation_Sibe_Proc",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"visible": 0,
+			"keywords": [
+				"manchu-morpho-phonology"
+			]
+		},
+		{
+			"id": "Indexical_Edge_Cases",
+			"title": "Indexical Edge Cases: Some Questions on Perspective Shift and its Role in Indexical and Quotational Theory",
+			"entry_type": "Lab Presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2020,
+				"month": 11,
+				"day": 18
+			},
+			"abstract": "Reliance on contextual information is not unique to indexical pronouns. Everything from evidentials and evaluatives to which names we give entities is dependent on the context in which we speak.\nIconicity, speaker oriented items, pronouns, and de re/de dicto distinctions are all related to the perspective and world through which events and situations are seen. Then why do we seemingly have distinct accounts for each of these phenomena?\nMy goals for this talk are to discuss the boundaries between these phenomena and the possibility that they are blurrier than we thought. I focus on two boundaries: that between speaker oriented items and indexical pronouns, and that between indexical shift and quotation.",
+			"venue": "Meaning and Modality Lab Meetings",
+			"location": "Harvard University",
+			"language": "en",
+			"citation_key": "rabinovitch2020indexicalP",
+			"files": [
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"indexical-perspectival-shift",
+				"illocution"
+			]
+		},
+		{
+			"id": "Intensional_As_Complex_Predicates",
+			"title": "Intensional Predicates as Complex Predicates: a Perspective from Restrictions on Intensional Interrogative Complements in Uyghur",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"ris_type": "CONF",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 12,
+				"day": 2
+			},
+			"abstract": "Uyghur (Turkic) has three complementation strategies each headed by a distinct particle: dep, liq and ish. Clauses headed by dep have tense, aspect, and agreement marking, while clauses headed by liq only have aspect, and clauses headed by ish only allow bare verbs. While rogative verbs (‘ask’, ‘wonder’) can take interrogative complements of all three clause types, responsive verbs (‘know’, ‘prove’, ‘agree’) cannot take dep headed interrogative complements and have narrow scoping wh-items. When taking a ish complement, rogative verbs acquire a modal flavor, while responsive verbs do not. The following data was collected with a native speaker consultant in Cambridge, Massachusetts.\nThis paper follows the intuitions in Suñer (1993) and Lahiri (2002) that responsive verbs take semi-question complements, while rogative verbs take ontologically distinct full question complements. This paper argues that semi-questions are sets of propositions of type ⟨⟨s,t⟩,t⟩, and full questions are speech-act taking predicates of type ⟨a,t⟩, where a is a speech-act, following Krifka (2018)’s ontological distinction between propositions ⟨s,t⟩ and speech acts a. Full questions are formed from semi questions through the type shifting REQUEST operator, which exists in the left periphery. Clauses headed by liq are CPs, and may optionally include a REQUEST operator. Clauses headed by dep are necessarily larger than liq clauses, and mandatorily apply the REQUEST operator to any embedded semi-question. As a result, while full questions may be represented by both dep and liq headed clauses, semi-questions can only be represented by liq headed clauses, causing the ungrammaticality of responsive predicates with interrogative dep headed complements with narrow scoping wh-items. Clauses headed by ish cannot include a REQUEST operator, and instead the interpretation of ish clauses under a rogative predicate is derived from the insertion of a silent modal which allows the application of a REQUEST operator, similar to infinitive embedding under ‘ask’ in English. This paper argues that the difference in judgement across rogative and responsive predicates is representative not just that different syntactic sizes required of semi-questions and full questions, but that these size and ontological differences may be distinguished by different complementation strategies within a language.",
+			"venue": "North East Linguistics Society 52",
+			"location": "Rutgers University",
+			"pages": {
+				"start": 35,
+				"end": 46
+			},
+			"language": "en",
+			"publication": {
+				"title": "NELS 52: Proceedings of the Fifty-Second Annual Meeting of the North East Linguistic Society",
+				"publisher": "Independently published"
+			},
+			"volume": 3,
+			"citation_key": "rabinovitch2022intensional",
+			"files": [
+				{
+					"name": "Paper",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution"
+			]
+		},
+		{
+			"id": "Island_Sensitive_Case_Uyghur",
+			"title": "Island Sensitivity and Case Matching in Uyghur Pseudo-Prolepsis",
+			"entry_type": "oral presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2023,
+				"month": 3,
+				"day": 4
+			},
+			"abstract": "This paper investigates so-called ‘proleptic’ constructions in Uyghur. I provide novel data from a native speaker consultant in the United States which suggests that these constructions are sensitive to islands and involve a case matching configuration, in which the proleptic objects match in case with their coreferent resumptive pronoun in certain configurations. I argue that this phenomenon can be explained through a modification of the proleptic accounts in Salzmann (2017) (A) and Lohninger et al. (2022) (B), in which the contextual binding relation enforced by an operator in the left periphery of proleptic CPs in argued for in (A) is replaced in Uyghur with a syntactic binding relation induced by an agreement relation between the complementizer and the ‘resumptive’ pronoun in the embedded clause, which enforces island constraints and mediates the aforementioned case matching process. I call such island sensitive instances of ‘prolepsis’ Pseudo-Prolepsis. This account expands the typology of cross-clausal A-dependencies discussed in (B) and provides evidence for the claim that cross-clausal A-dependencies arise due to predication relationships in the left periphery of a clause, while expanding the notion of what may cause such predication relationships.",
+			"venue": "The Sixth Workshop on Turkic and Languages in Contact with Turkic (Tu+6)",
+			"location": "Harvard University",
+			"language": "en",
+			"citation_key": "rabinovitch2023islandP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"cross-clausal-dependencies"
+			]
+		},
+		{
+			"id": "Manchu_Finite_Verbs",
+			"title": "Implications of mbi as me+bi Hypothesis in Manchu’s Finite Verb Paradigm",
+			"entry_type": "oral presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2020,
+				"month": 2,
+				"day": 22
+			},
+			"venue": "ECO5 2020",
+			"location": "Harvard University",
+			"language": "en",
+			"citation_key": "rabinovitch2020implicationsP",
+			"files": [
+				{
+					"name": "Corrections",
+					"extension": "txt",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"manchu-morpho-phonology"
+			]
+		},
+		{
+			"id": "Manchu_Nasal_Assimilation",
+			"title": "Manchu -n Dropping and Nasal Assimilation Asymmetry: A Case for Coalescence and Linearity",
+			"entry_type": "oral presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2019,
+				"month": 7,
+				"day": 9
+			},
+			"abstract": "This study investigates morpheme final sound changes during affixation and compounding in Standard Manchu (Tungusic, China). Using a framework of Optimality Theory (based on Prince & Smolensky 1993, and expanded by McCarthy 2008/2011 and Pater 2009), I argue that multiple phenomena in Manchu derivational sound change can be explained using a high ranked LINEARITY constraint which is violated not only by metathesis, but also by the lack of relative orders within a morpheme brought on through Coalescence.",
+			"venue": "The 12th International Workshop on Theoretical East Asian Linguistics (TEAL 12)",
+			"location": "University of Macau, Macau",
+			"language": "en",
+			"citation_key": "rabinovitch2019manchuP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"manchu-morpho-phonology"
+			]
+		},
+		{
+			"id": "Narrow_Shifty_Quotation_Uyghur",
+			"title": "Narrow Scoping Content Question Items in Shifty Contexts: A Case of Surprising Non-Quotation in Uyghur",
+			"entry_type": "oral presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 1,
+				"day": 7
+			},
+			"abstract": "This paper investigates the distribution of third person subject drop in Uyghur and finds that some Uyghur sentences which are typically analyzed as quotational exhibit the null subject properties of embedded clauses. I argue that the complements of the sentences are non-quotational Force phrases (ForceP) which enforce narrow scope on CQ-items while allowing other A′ movement between matrix and embedded clauses. In embedded clauses with accusative subjects and narrow scoping content word items, a proleptic analysis of the accusative subject is incompatible with third person dropping, suggesting the accusative subject moves, which is only possible in non-quotational clauses.",
+			"venue": "Linguistic Society of America Annual Meeting 2022",
+			"location": "Washington, D.C",
+			"language": "en",
+			"short_title": "Narrow scoping content question items in shifty contexts",
+			"citation_key": "rabinovitch2022narrowP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Captions",
+					"extension": "srt",
+					"visible": 1
+				},
+				{
+					"name": "Video",
+					"extension": "mp4",
+					"visible": 0
+				},
+				{
+					"name": "Video",
+					"extension": "link",
+					"url": "https://youtu.be/nrsZ5DH28Sw",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution",
+				"indexical-perspectival-shift",
+				"cross-clausal-dependencies"
+			]
+		},
+		{
+			"id": "Narrow_Shifty_Quotation_Uyghur_Proc",
+			"title": "Narrow Scoping Content Question Items in Shifty Contexts: A Case of Surprising Non-Quotation in Uyghur",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"ris_type": "JOUR",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 5,
+				"day": 5
+			},
+			"abstract": "This paper analyses finite (indexically shifted) complements in Uyghur with narrow scoping content question items. Using novel data, this paper discusses the distribution of null subjects in Uyghur, which can be licensed without a controller in embedded clauses except for interrogative intensional complements. I argue, following Sun˜er (1993), that complements with interrogative intensional interpretations (containing narrow scoping content question items) are syntactically larger than their extensional counterparts, containing a Force phrase (ForceP). Following Holmberg et al. (2009)’s theory of null subject licensing, I argue that Uyghur is a partial null subject language in which the heads of referential CPs contain a valued [D] feature which can check with the unvalued [uD] feature on typically controlled pronouns (in the Holmberg et al. 2009 sense), resulting in an interpretation in which the embedded (null) subject is not coreferent with a controller but rather some discourse provided individual. Referential CPs cannot be embedded directly under ForcePs, and so complements with narrow scoping content question items, which I take to be ForcePs, ban this kind of null subject.",
+			"pages": {
+				"start": 5235,
+				"end": 5249
+			},
+			"language": "en",
+			"publication": {
+				"title": "Proceedings of the Linguistic Society of America",
+				"short_title": "Proc Ling Soc Amer"
+			},
+			"volume": 7,
+			"issue": 1,
+			"short_title": "Narrow scoping content question items in shifty contexts",
+			"doi": "10.3765/plsa.v7i1.5235",
+			"editors": [
+				{
+					"surname": "Farrell",
+					"given_name": "Patrick"
+				}
+			],
+			"issn": "2473-8689",
+			"url": "https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5235",
+			"citation_key": "rabinovitch2022narrow",
+			"files": [
+				{
+					"name": "Paper",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution",
+				"indexical-perspectival-shift",
+				"cross-clausal-dependencies"
+			]
+		},
+		{
+			"id": "OCP_Chinese_Tonogenesis",
+			"title": "OCP Avoidance in Classical Chinese: Implications for Tonogenesis",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2020,
+				"month": 9,
+				"day": 20
+			},
+			"abstract": "Through a corpus of five pre-Qin (before 221 BCE) texts, this paper argues that the authors of both prose and poetry in Classical Chinese were sensitive to OCP violations at cross-word boundaries, and changed diction and used marked word order as a way to avoid the creation of pseudogeminates across words. The frequency of bigrams which result in pseudogeminates are compared to the predicted frequency of pseudogeminates across the corpus. This paper finds that pseudogeminates are significantly (p<0.00001) rarer than expected through randomization. Furthermore, by analyzing these texts with multiple possible phonological reconstructions, this paper suggests that post-codas, segments which were present in Old Chinese, but were elided during the process of tonogenesis between Old Chinese and Middle Chinese, were most likely present in the Chinese of the writers of the texts. Evidence comes from the consistency of OCP avoidance across all tones of Chinese assuming the presence of post-codas, and the lack of consistency thereof when post-codas are not assumed.",
+			"venue": "The 2020 Annual Meeting on Phonology",
+			"location": "University of California San Diego",
+			"language": "en",
+			"citation_key": "rabinovitch2020ocpP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Captions",
+					"extension": "srt",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Video",
+					"extension": "mp4",
+					"visible": 0
+				},
+				{
+					"name": "Video",
+					"extension": "link",
+					"url": "https://youtu.be/PG-6nGVp19k",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"phonologically-conditioned-syntax"
+			]
+		},
+		{
+			"id": "OCP_Chinese_Tonogenesis_Proc",
+			"title": "OCP Avoidance in Classical Chinese: Implications for Tonogenesis",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"ris_type": "CONF",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 5,
+				"day": 1
+			},
+			"abstract": "Through a corpus of five pre-Qin (before 221 BCE) texts, this paper argues that the authors of both prose and poetry in Classical Chinese were sensitive to OCP violations at cross-word boundaries, and changed diction and used marked word order as a way to avoid the creation of pseudogeminates across words. The frequency of bigrams which result in pseudogeminates are compared to the predicted frequency of pseudogeminates across the corpus. This paper finds that pseudogeminates are significantly (p<0.00001) rarer than expected through randomization. Furthermore, by analyzing these texts with multiple possible phonological reconstructions, this paper suggests that post-codas, segments which were present in Old Chinese, but were elided during the process of tonogenesis between Old Chinese and Middle Chinese, were most likely present in the Chinese of the writers of the texts. Evidence comes from the consistency of OCP avoidance across all tones of Chinese assuming the presence of post-codas, and the lack of consistency thereof when post-codas are not assumed.",
+			"venue": "The 2020 Annual Meeting on Phonology",
+			"location": "Washington, D.C",
+			"language": "en",
+			"publication": {
+				"title": "Supplemental Proceedings of the 2020 Annual Meeting on Phonology",
+				"publisher": "Linguistic Society of America"
+			},
+			"doi": "https://doi.org/10.3765/amp.v9i0.4917",
+			"editors": [
+				{
+					"surname": "Bennett",
+					"given_name": "Ryan"
+				},
+				{
+					"surname": "Bibbs",
+					"given_name": "Richard"
+				},
+				{
+					"surname": "Brinkerhoff",
+					"given_name": "Mykel L."
+				},
+				{
+					"surname": "Kaplan",
+					"given_name": "Max J."
+				},
+				{
+					"surname": "Rich",
+					"given_name": "Stephanie"
+				},
+				{
+					"surname": "Rysling",
+					"given_name": "Amanda"
+				},
+				{
+					"surname": "Van Handel",
+					"given_name": "Nicholas"
+				},
+				{
+					"surname": "Wax Cavallaro",
+					"given_name": "Maya"
+				}
+			],
+			"isbn": "2377-3324",
+			"url": "http://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4917",
+			"citation_key": "rabinovitch2021ocp",
+			"files": [
+				{
+					"name": "Paper",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"phonologically-conditioned-syntax"
+			]
+		},
+		{
+			"id": "Phasal_Manchu_Vowel_Harmony",
+			"title": "Using Phasal Syntax to Make Generalizations in Manchu Vowel Harmony",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				},
+				{
+					"id":"qian-baoqing",
+					"surname": "Qian",
+					"given_name": "Baoqing"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 4,
+				"day": 10
+			},
+			"abstract": "In this paper, we analyze Manchu vowel harmony and argue that much of what were previously considered irregularities can actually be explained as the result of a phasal imperfective head, which requires that its complement, the spell-out domain, be sent to PF before more material can attach to the stem, similar to Fenger (2020)’s analysis of stress and pitch accent in Turkish and Japanese verbs respectively. We suggest that this analysis, which provides regularity where their was previously assumed to be none, can be used in pedagogy as a way of streamlining the internalization process of acquiring vowel harmony.",
+			"venue": "The 39th meeting of the West Coast Conference on Formal Linguistics (WCCFL) Special Session on Language Reclaimation",
+			"location": "The University of Arizona, Tuscon, Arizona",
+			"language": "en",
+			"citation_key": "rabinovitch2021usingP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"manchu-morpho-phonology",
+				"documentation-pedagogy"
+			]
+		},
+		{
+			"id": "Phasal_Manchu_Vowel_Harmony_Proc",
+			"title": "Using Phasal Syntax to Make Generalizations in Manchu Vowel Harmony",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"ris_type": "CONF",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				},
+				{
+					"id":"qian-baoqing",
+					"surname": "Qian",
+					"given_name": "Baoqing"
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"manchu-morpho-phonology",
+				"documentation-pedagogy"
+			]
+		},
+		{
+			"id": "Restrictions_Uyghur_Complements",
+			"title": "Restrictions on Rogative and Responsive Verb Complements in Uyghur",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 10,
+				"day": 29
+			},
+			"abstract": "Uyghur (Turkic) has three complementation strategies each headed by a distinct particle: dep, liq and ish. Clauses headed by dep have tense, aspect, and agreement marking, while clauses headed by liq only have aspect, and clauses headed by ish only allow bare verbs. While rogative verbs (‘ask’, ‘wonder’) can take interrogative complements of all three clause types, responsive verbs (‘know’, ‘prove’, ‘agree’) cannot take dep headed interrogative complements and have narrow scoping wh-items. When taking a ish complement, rogative verbs acquire a modal flavor, while responsive verbs do not. The following data was collected with a native speaker consultant in Cambridge, Massachusetts.\nThis paper follows the intuitions in Suñer (1993) and Lahiri (2002) that responsive verbs take semi-question complements, while rogative verbs take ontologically distinct full question complements. This paper argues that semi-questions are sets of propositions of type ⟨⟨s,t⟩,t⟩, and full questions are speech-act taking predicates of type ⟨a,t⟩, where a is a speech-act, following Krifka (2018)’s ontological distinction between propositions ⟨s,t⟩ and speech acts a. Full questions are formed from semi questions through the type shifting REQUEST operator, which exists in the left periphery. Clauses headed by liq are CPs, and may optionally include a REQUEST operator. Clauses headed by dep are necessarily larger than liq clauses, and mandatorily apply the REQUEST operator to any embedded semi-question. As a result, while full questions may be represented by both dep and liq headed clauses, semi-questions can only be represented by liq headed clauses, causing the ungrammaticality of responsive predicates with interrogative dep headed complements with narrow scoping wh-items. Clauses headed by ish cannot include a REQUEST operator, and instead the interpretation of ish clauses under a rogative predicate is derived from the insertion of a silent modal which allows the application of a REQUEST operator, similar to infinitive embedding under ‘ask’ in English. This paper argues that the difference in judgement across rogative and responsive predicates is representative not just that different syntactic sizes required of semi-questions and full questions, but that these size and ontological differences may be distinguished by different complementation strategies within a language.",
+			"venue": "North East Linguistics Society 52",
+			"location": "Rutgers University",
+			"language": "en",
+			"citation_key": "rabinovitch2021restrictionsP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Captions",
+					"extension": "srt",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Video",
+					"extension": "mp4",
+					"visible": 0
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Video",
+					"extension": "link",
+					"url": "https://youtu.be/rNaPefZjmK8",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution"
+			]
+		},
+		{
+			"id": "Tense_Mood_Indexicals_Ende",
+			"title": "Tense, Mood, and Indexicals Under Ende Ngonongg/Ngonoe",
+			"entry_type": "oral presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 10,
+				"day": 7
+			},
+			"venue": "BU Harvard MIT Summer Fieldwork Symposium",
+			"location": "MIT",
+			"language": "en",
+			"citation_key": "rabinovitch2022tense",
+			"files": [
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution",
+				"indexical-perspectival-shift"
+			]
+		},
+		{
+			"id": "Time_Course_Tonogenesis",
+			"title": "Towards a Time Course of Chinese Tonogenesis: Evidence from Phonologically Conditioned Syntax",
+			"entry_type": "oral presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2021,
+				"month": 4,
+				"day": 30
+			},
+			"venue": "Phonology in the North East 2021 (PhoNE)",
+			"location": "New York University",
+			"language": "en",
+			"citation_key": "rabinovitch2021towardsP",
+			"files": [
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"phonologically-conditioned-syntax"
+			]
+		},
+		{
+			"id": "Towards_Data_Collection_Uyghur",
+			"title": "Towards Data Collection on Uyghur Prolepsis and ECM",
+			"entry_type": "Lab Presentation",
+			"review_status": "Not Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2022,
+				"month": 10,
+				"day": 21
+			},
+			"venue": "WOLF Lab Meetings",
+			"location": "Harvard University",
+			"language": "en",
+			"citation_key": "rabinovitch2022towards",
+			"files": [
+				{
+					"name": "Handout",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"cross-clausal-dependencies",
+				"illocution",
+				"indexical-perspectival-shift"
+			]
+		},
+		{
+			"id": "Two_Ways_Close_Proposition",
+			"title": "Two Ways to Existentially Close a Proposition",
+			"entry_type": "poster presentation",
+			"review_status": "Refereed",
+			"ris_type": "SLIDE",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2020,
+				"month": 8,
+				"day": 12
+			},
+			"abstract": "There is a cross-linguistic tendency to distinguish root clauses, those which may exist independent of other clauses in an utterance, and embedded clauses, which are only grammatical when embedded within a root clause. An idealized distinction between root and embedded clauses is often recognized as such: root clauses carry discourse markers, allow fronting of arguments, and allow hosting of certain moods, such as the imperative in English; embedded clauses are typically marked with a complementizer, contain less material than root clauses, and may host their own unique verbal forms. However, this distinction has been called into question as many languages occasionally embed clauses which exhibit so-called root phenomena (embedded root phenomena, or ERP) or have so-called embedded phenomena appear as independent clauses (insubordination). While ERP and insubordination are restricted to certain constructions, it is unclear if the mechanism that causes these restrictions is a syntactic one, a semantic one, or both.\nThis paper presents an account of embedded and root clauses whereby a CP contains an open proposition argument which requires existential closure. Adopting a Kratzerian approach, typical embedded clauses existentially close their propositional argument after being assigned to a contentful object, an (often unvocalized) entity-type argument, via a complementizer. Without complementizers, root clauses existentially close their propositional argument after assigning it a given illocutionary force, resulting in a speech act. Lexical items such as discourse markers are restricted to root clauses as they are speech act-taking predicates.\nIn Section 2, I argue that the application of illocutionary force to a proposition is a form of existential closure which relates said proposition to a speech act. This mirrors the structure of interfacing heads between sortal domains as proposed by Ramchand and Svenonius (2014), whereby the vP, TP, and CP domains are host to modifiers of event, situation, and proposition sortal types respectively. I take Force° as the interface between the propositional CP and the speech act domain, a domain above the CP first proposed by Speas and Tenny (2003) (henceforth S&T (2003)). Force- and complementizer-mediated closure result in different syntactic-semantic structures, leading to a dichotomy in their distribution and use.\nUnder this framework, ERP can be analyzed as cases where embedded CPs have force-mediated closure. In Section 3, I use Suñer (1993)’s force-based analysis of Spanish embedded speech acts to argue that Spanish ‘que’ can assign speech-act content to entity-type objects, in a manner similar to but distinct from complementizers. This allows speech acts, along with their root syntactic structure, to embed under verbs. In Section 4, I extend this analysis to insubordination with the addition of either covert predication, or object-taking discourse markers. In Section 5, I discuss the shortcomings of this theory in explaining Germanic embedded verb second (EV2). In line with Djärv (2019), I argue that German ERP does not involve force-mediated closure, and is an entirely CP-internal phenomenon, suggesting that ERP may be two phenomena, split across propositional and speech act domains.",
+			"venue": "The 22nd Seoul International Conference on Generative Grammar (SICOGG 22)",
+			"location": "Gyeongsang National University, Jinju, Korea",
+			"language": "en",
+			"citation_key": "rabinovitch2020twoP",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Slides",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Captions",
+					"extension": "srt",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Video",
+					"extension": "mp4",
+					"visible": 0
+				},
+				{
+					"name": "Video",
+					"extension": "link",
+					"url": "https://youtu.be/aSbdoy4iUI4",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution"
+			]
+		},
+		{
+			"id": "Two_Ways_Close_Proposition_Proc",
+			"title": "Two Ways to Existentially Close a Proposition",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Not Peer-Reviewed",
+			"ris_type": "CONF",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"date": {
+				"year": 2020,
+				"month": 8,
+				"day": 12
+			},
+			"abstract": "There is a cross-linguistic tendency to distinguish root clauses, those which may exist independent of other clauses in an utterance, and embedded clauses, which are only grammatical when embedded within a root clause. An idealized distinction between root and embedded clauses is often recognized as such: root clauses carry discourse markers, allow fronting of arguments, and allow hosting of certain moods, such as the imperative in English; embedded clauses are typically marked with a complementizer, contain less material than root clauses, and may host their own unique verbal forms. However, this distinction has been called into question as many languages occasionally embed clauses which exhibit so-called root phenomena (embedded root phenomena, or ERP) or have so-called embedded phenomena appear as independent clauses (insubordination). While ERP and insubordination are restricted to certain constructions, it is unclear if the mechanism that causes these restrictions is a syntactic one, a semantic one, or both.\nThis paper presents an account of embedded and root clauses whereby a CP contains an open proposition argument which requires existential closure. Adopting a Kratzerian approach, typical embedded clauses existentially close their propositional argument after being assigned to a contentful object, an (often unvocalized) entity-type argument, via a complementizer. Without complementizers, root clauses existentially close their propositional argument after assigning it a given illocutionary force, resulting in a speech act. Lexical items such as discourse markers are restricted to root clauses as they are speech act-taking predicates.\nIn Section 2, I argue that the application of illocutionary force to a proposition is a form of existential closure which relates said proposition to a speech act. This mirrors the structure of interfacing heads between sortal domains as proposed by Ramchand and Svenonius (2014), whereby the vP, TP, and CP domains are host to modifiers of event, situation, and proposition sortal types respectively. I take Force° as the interface between the propositional CP and the speech act domain, a domain above the CP first proposed by Speas and Tenny (2003) (henceforth S&T (2003)). Force- and complementizer-mediated closure result in different syntactic-semantic structures, leading to a dichotomy in their distribution and use.\nUnder this framework, ERP can be analyzed as cases where embedded CPs have force-mediated closure. In Section 3, I use Suñer (1993)’s force-based analysis of Spanish embedded speech acts to argue that Spanish ‘que’ can assign speech-act content to entity-type objects, in a manner similar to but distinct from complementizers. This allows speech acts, along with their root syntactic structure, to embed under verbs. In Section 4, I extend this analysis to insubordination with the addition of either covert predication, or object-taking discourse markers. In Section 5, I discuss the shortcomings of this theory in explaining Germanic embedded verb second (EV2). In line with Djärv (2019), I argue that German ERP does not involve force-mediated closure, and is an entirely CP-internal phenomenon, suggesting that ERP may be two phenomena, split across propositional and speech act domains.",
+			"venue": "The 22nd Seoul International Conference on Generative Grammar (SICOGG 22)",
+			"location": "Gyeongsang National University, Jinju, Korea",
+			"pages": {
+				"start": 321,
+				"end": 330
+			},
+			"language": "en",
+			"publication": {
+				"title": "Proceedings of the 22nd Seoul International Conference on Generative Grammar",
+				"publisher": "Hankook Munhwasa"
+			},
+			"volume": 22,
+			"citation_key": "rabinovitch2020two",
+			"files": [
+				{
+					"name": "Paper",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"illocution"
+			]
+		},
+		{
+			"id": "Speaking_Silence_Voice_Gei",
+			"title": "Speaking for the Silence: a Voice Splitting Analysis of Mandarin gěi",
+			"review_status": "Refereed",
+			"citation_key": "rabinovitch2023speakingP",
+			"entry_type": "poster presentation",
+			"ris_type": "SLIDE",
+			"abstract": "The word gěi “give” in Mandarin can be used in a host of contructions; as a verb (1a), as a verbal suffix (1b), as a preverbal benefactor marker (1c), as a postverbal recipient marker (1d), as a linker in purposive clauses (1e), as a passive marker (1f), a causative marker (1g), and as an affectee marker (1h). Only the verbal (1a), benefactor (1c), recipient (1d), and purposive (1e) marking versions of gěi are compatible with progressive apsect (prog). True passive (bèi) and causative (ràng) morphology is (i) compatible with prog and (ii) incompatible with passive/causative gěi (2).\nIf gěi is a multifunctional item with different categorial identities and semantic functions (Li and Thompson 1989; Her 2006), what causes the contrast in compatibility of progessive aspect between gěi-passives and causatives and ‘true’ passives and causatives? If gěi is a single entry in terms of its different uses (Lin and Huang 2015; Badan 2021), why does gěi differ in compatibility with prog across constructions? Can we maintain the single gěi approach under such a contrast?\nOur Proposal has three assumptions: (i) gěi is a functional head which projects above null theta- role licensing heads, similar to Wurmbrand’s (2021) VoiceMorph-head, (ii) gěi forms a instantaneous event, making it incompatible with progressive, and (iii) structures in which gěi and prog co-occur contain two subevents, such that co-occuring prog and gěi target different subevents. Wurmbrand (2021) assumes that the voice domain of a language may be decomposed into a covert agent-introducing head (VoiceAgent) and a morphologically overt voice marking head (VoiceMorph). We extend this notion to theta roles generally, and assume theta role introduction may compose of two phrases: θ-ArgP and θ-MorphP respectively (3). We take gěi to categorically be θ-Morph , combining with a covert-headed θ-ArgP — headed by Voice (Kratzer 1996), Cause (Key 2013; Harley 2017), or PHave (Harley 2002, 2007; Harley and Jung 2015). Passive bèi and causative ràng are also such heads but are restricted to combining with VoiceP and CauseP respectively, thus gěi can covary but not cooccur with bèi and ràng (2).\nWe propose that gěi takes a verbal predicate f and describes event e as denoting the commencement of an event e′ for which f(e′) is true. A commencement event comm(e, e′) is an instantaneous event which causes and occurs immediately before the event it commences. By denoting an instantaneous event, commencement events — and thus the resulting verbal predi- cate — is incompatible with progressive aspect (Beavers 2010, 2013). \nWe explain the compatibility of gěi and prog as the result of the verbal predicate introducing new subevents for which prog is compatible. For instance, we assume that the verbal usage of gěi (1a) is formed by the combination of two theta licensing heads PHave and vCause (Harley 2002). vCause introduces a causing event, for which the caused event is the commencement event denoted by gěi. While the commencement event is instantaneous, the cause of the commencement is not, and can thus co-occur with progressive aspect. When the upper causing event is not present, we correctly predict that prog is no longer available (5).\nWe take suffixal gěi (1b) to be a similar case where gěi targets a recipient theta-role introduced by PHave, licensed by the main verb. The event denoted by gěi is not compatible with prog while the main verb is. The indeterminacy of the compatibility of prog with gěi results from the headedness of the V-gěi combination: if the suffix gěi is the head of the V-gěi compound, the structure is incompatible with prog; if the other verb is the head of the compound, prog is compatible. The benefactive gěi in (1c) is located above the benefactor theta head, which projects above VoiceP or AspP; prog can thus be encoded below gěi, targetting the ‘commenced’ event. Purposive gěi (1e) is included in a non-finite CP (Lin and Huang 2015), in which gěi combines with Voice in the embedded event, rather than the matrix event, allowing a co-occurrence with prog. Post-verbal gěi (1d) is equivalent to purposive gěi with a covert PHave as the embedded predicate. Gěi used in passive (1f), causative (1g), and affectee (1h) constructions combines above the passive voice, causer, and affectee theta-role introducers and forms a commencement event; no additional subevent is formed above these constructions and so the projection is incompatible with prog.\nThis proposal attributes the different usages of gěi to the different syntactic environments in which the same syntactic element, the θ-Morph0 head is realized. In addition, this θ-Morph0 head is dedicated to encoding an instantaneous, commencement subevent in the event structure. By this means, we can give up the various labels of gěi and unite them with a single syntax-semantic mechanism. Such an analysis predicts that the decomposed structure of theta-introducers should appear in other languages; we suggest that Sevgi’s (2021) analysis of ASL verbal classifiers as functional heads which introduce theta roles may be on this track; we suggest that verbal classifiers in languages like ASL and Innu (Drapeau and Lambert-Brétière 2011) may be overt instantiations of θ-Morph0 which agree with the specifier of their embedded θ-ArgP. In this typology, Mandarin instantiates a language with overt but non-agreeing θ-Morph0s, filling a typological gap of non- agreeing verbal classifiers.",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack"
+				},
+				{
+					"id":"wang-siyu",
+					"surname": "Wang",
+					"given_name": "Siyu"
+				},
+				{
+					"id":"qian-baoqing",
+					"surname": "Qian",
+					"given_name": "Baoqing"
+				}
+			],
+			"date": {
+				"year": 2023,
+				"month": 5,
+				"day": 13
+			},
+			"language": "en",
+			"location": "National Taiwan Normal University, Taipei, Taiwan",
+			"venue": "TEAL-13: The Workshop on Theoretical East Asian Linguistics 13",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Poster",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"voice-thematic-roles"
+			]
+		},
+		{
+			"id": "Indices_Javanese_Passive",
+			"title": "Indices in the Voice Domain: A Unified Analysis of Javanese Passives",
+			"review_status": "Refereed",
+			"citation_key": "cui2023indices",
+			"entry_type": "oral presentation",
+			"ris_type": "SLIDE",
+			"abstract": "Introduction: In the Surakarta dialect of Javanese (Austronesian), there are two ‘passive voice’ constructions in addition to the actor voice: a tak-/kok-passive and a di-passive. The tak-/kok-passive is restricted to first and second person singular Agents, and is formed via the proclitics tak- (1sg) and kok- (2sg), as in (1a). This kind of passive is incompatible with coexistent Agent-denoting bare DPs or by-phrases (1b). In the di-passive construction, the Agent is realized as either a by-phrase, which is available for Agents with all person and number features (2), or a postverbal bare DP, which is available for all Agents except 1sg and 2sg (3). When there is no bare DP or by-phrase present, the di-passive construction contains an implicit Agent, which, unlike the implicit Agents of typical passive constructions cross-linguistically, can be bound by higher quantifiers (4), being treated like a pronoun — a configuration impossible in English without an overt by-phrase. The full paradigm of passive constructions in Surakarta Javanese is schematized in (5). In this talk, we will propose an analysis that accounts for the co-existence of two passive constructions and their corresponding properties. Questions: Why are the di-passive with a bare DP Agent and the tak-/kok-passive in complentary distribution, conditioned by the person of Agents? What allows implicit Agents to be bound by quantifiers in Javanese passives? Proposal: We argue that both tak-/kok-passives and di-passives are formed via insertion of a pronominal Agent-introducing v-head, which can be bound by quantifiers. The use of by-phrases, bare DPs, or pro- clitics is tied to the presence of an optional Voice projection on top of the v-head, which abstracts over the pronominal Agent introduced by v and introduces an overt DP Agent argument in Spec,VoiceP. Analysis: We follow Harley (2013) and Privoznov (2022) in assuming that the encoding of voice is decomposed into v and Voice projections. We assume that the verbalizing head v is mandatory, whereas the Voice projection is optional. First, motivated by the availability for implicit Agents to be bound by higher quantifiers in Javanese passives, we propose an indexed version of v (6c), which is spelt out as di- by default. We take this insight from Privoznov’s (2022) treatment of implicit causees in Buryat, which are also found to be pronominal, that is, they can be bound by higher quantifiers. As a result, the verbalizing head v introduces an indexed Agent, modelling the pronominal nature of the implicit Agent in Javanese. Second, we argue that Javanese passives with bare DPs should be syntactically distinguished from the ones with PP by-phrases by the presence/absence of a projected VoiceP. Simply put, bare DPs and by-phrases occupy two different syntactic positions. When the Agent is realized as a DP, we assume that there is an additional VoiceP projection above vP. The Voice-head functions as an abstractor over assignment functions (6d), and merges with the vP via intensional function application, opening an entity argument which binds the Agent. This argument is then manditorily saturated and bound by the bare DP in SpecVoiceP (6a-i). When a first or second person singular pronoun is merged in SpecVoiceP, the SpecVoiceP, Voice, and v form a span (Svenonius 2019) spelled out as the proclitics tak-/kok- (6a-ii). The necessity of span formation for tak-/kok- therefore results in the complementary distribution between tak-/kok- and bare DP di-passives. When the Agent is realized as a PP by-phrase, no VoiceP is projected; the index of v must undergo predicate abstraction at some point in the structure in order to allow for reference — this can be done either through the optional by-phrase PP, or through binding by a quantifier higher in the structure (6a-iii). We follow Privoznov (2022) in assuming that when no overt binder appears, as in passives with implicit agents, the index is existentially closed at the root clause. Our analysis leads to a subcategorization of Javanese passives based on the presence or absence of a VoiceP. This subcategorization corresponds to general traits observed regarding Patient Voice and passive voice constructions in other Austronesian languages: constructions with a VoiceP require a bare DP Agent while still promoting the Patient argument, similar to Patient voice (Legate 2014; Wurmbrand 2021), while constructions without a VoiceP allow for binding via a by-phrase or an implicit Agent, similar to ‘true’ passive voice, except for the ability for binding by higher quantifiers. Such an analysis both expands the typology of passive voice while providing a clue to the diachronic origins of Javanese passive. The denotation of di- as an indexed v-head also provides an overt instance of indexed verbal morphology (see also Privoznov 2022), providing further evidence that functional heads may encode their own indexed arguments.",
+			"authors": [
+				{
+					"id":"cui-jian",
+					"surname": "Cui",
+					"given_name": "Jian"
+				},
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack"
+				}
+			],
+			"date": {
+				"year": 2023,
+				"month": 10,
+				"day": 19
+			},
+			"language": "en",
+			"location": "Lund University, Sweden",
+			"venue": "The 30th conference of the Austronesian Formal Linguistics Association",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"voice-thematic-roles"
+			]
+		},
+		{
+			"id": "Island_Sensitive_Case_Uyghur_Proc",
+			"title": "Island Sensitivity and Case Matching in Uyghur Pseudo-Prolepsis",
+			"entry_type": "Proceedings Paper",
+			"review_status": "Edited",
+			"ris_type": "CONF",
+			"authors": [
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack Isaac"
+				}
+			],
+			"abstract": "This paper investigates so-called ‘proleptic’ constructions in Uyghur. I provide novel data from a native speaker consultant in the United States which suggests that these constructions are sensitive to islands and involve a case matching configuration, in which the proleptic objects match in case with their coreferent resumptive pronoun in certain configurations. I argue that this phenomenon can be explained through a modification of the proleptic accounts in Salzmann (2017) (A) and Lohninger et al. (2022) (B), in which the contextual binding relation enforced by an operator in the left periphery of proleptic CPs in argued for in (A) is replaced in Uyghur with a syntactic binding relation induced by an agreement relation between the complementizer and the ‘resumptive’ pronoun in the embedded clause, which enforces island constraints and mediates the aforementioned case matching process. I call such island sensitive instances of ‘prolepsis’ Pseudo-Prolepsis. This account expands the typology of cross-clausal A-dependencies discussed in (B) and provides evidence for the claim that cross-clausal A-dependencies arise due to predication relationships in the left periphery of a clause, while expanding the notion of what may cause such predication relationships.",
+			"venue": "The Sixth Workshop on Turkic and Languages in Contact with Turkic (Tu+6)",
+			"language": "en",
+			"citation_key": "rabinovitch2023island",
+			"publication": {
+				"title": "Proceedings of the Sixth Workshop on Turkic and Languages in Contact with Turkic (Tu+6)"
+			},
+			"files": [],
+			"visible": 1,
+			"projects": [
+				"cross-clausal-dependencies"
+			]
+		}
+	],
+	"project_data": [
+		{
+			"id": "cross-clausal-dependencies",
+			"herotext": "Cross-Clausal Dependencies",
+			"hero": "Kendall_and_Longfellow_Bridge_from_Esplanade",
+			"comment": "Cross-clausal dependencies are instances where two elements in syntax (heads, phrases, positions) are related to one another via movement, binding, or feature sharing. My work on cross-clausal dependencies has been mostly concerned with exceptional case marking constructions in Uyghur, where I've investigated the interaction between apparent cross-clausal dependencies and <a href='/projects/index.html?project=indexical-perspectival-shift'>indexical shift</a>, as well as the status of what I call 'pseudo-proleptic' constructions in Uyghur, which initially appear proleptic, but actually involves a movement dependency."
+		},
+		{
+			"id": "documentation-pedagogy",
+			"herotext": "Documentation, Revitalization, and Pedagogy",
+			"hero": "Baoqing_Butterfly_Orchids_First_Bloom",
+			"comment": "As the study of language, linguistics as a science both has a moral obligation to and a practical interest in linguistic diversity. I have strived to find ways in which the more theoretical work I do can serve linguistic communities and language educators. While most of my work relies on language documentation (either my own, or work done by others), I provide a few references here to work that has been specifically aimed at language revitalization and in applying linguistic theory to language pedagogy broadly."
+		},
+		{
+			"id": "illocution",
+			"herotext": "Speech Acts, Illocution, and Embedded Questions",
+			"hero": "Sunset_Clouds_Behind_Blackstone_Steam_Plant",
+			"comment": "I am fascinated the human ability to recall, discuss, and reason with thoughts, speech acts, and other kinds of speech acts. My work in this area mostly concerns the way in which we model the content and meaning of attitudes, particularly how we distinguish between different kinds of attitudes (propositions vs. questions, extensional attitudes vs. intensional attitudes) both in our semantics and in their syntactic reflexes."
+		},
+		{
+			"id": "indexical-perspectival-shift",
+			"herotext": "Indexical and Perspectival Shift",
+			"hero": "Moonrise_over_Peabody_Terrace",
+			"comment": "Indexical shift describes situations in which indexicals (first and second person pronouns, and words like 'here' and 'now') refer to individuals or locations/times which are not determined by the immediate context, but some reported or embedded context. My work on this has mostly surrounded languages like Uyghur and Ende, where the availability of indexical shift appears to differ dependeing on the presence of <a href='/projects/index.html?project=cross-clausal-dependencies'>cross-clausal dependencies</a> or the semantics relating to the kind of cognition which is being reported."
+		},
+		{
+			"id": "manchu-morpho-phonology",
+			"herotext": "Manchu and Sibe Morpho-Phonology",
+			"hero": "Zakim_Bridge_from_Charlestown_Bells",
+			"comment": "Over my research with Manchu and Sibe, I have come across some interesting puzzles regarding the way in which the morphology of the languages interact with their phonology, including looking at the ways in which honorifics are formed and the apparent idiosyncrasies in their vowel harmony systems."
+		},
+		{
+			"id": "phonologically-conditioned-syntax",
+			"herotext": "Phonologically Conditioned Syntax and Tonogenesis",
+			"hero": "Night_Downtown_Boston_from_Peabody_Terrace",
+			"comment": "Phonologically conditioned syntax refers to any situation in which the syntax of a sentence is conditioned in some way by the phonology of its constituent words. For instance, when given the option of two semantically equivalent sentences, people will statistically tend to produce the sentence which violates fewer phonological constraints, such as OCP constraints. My work is in using such phenomenon to attempt to track the process of tonogenesis in Classical Chinese: tonogenesis leaves behind phonological traces which are not captured by the writing system of Chinese, but may be captured by statistical tendencies in Classical Chinese literature."
+		},
+		{
+			"id": "voice-thematic-roles",
+			"herotext": "Voice and Thematic Role Licensing",
+			"hero": "Night_Time_Geese_in_Esplanade",
+			"comment": "Thematic roles tie events and their arguments together. I have been interested in the ways in which we can model how events and arguments may relate to one another: what makes certain event-argument relationships best modelled as relating to subevents? Are implicit arguments always existentially quantified, or are there configurations in which implicit arguments can be referred to?"
+		}
+	],
+	"teaching_data": [
+		{
+			"institution": "University of Massachusetts, Amherst",
+			"position": "Teaching Assistant",
+			"class_name": "Conversation Suite",
+			"class_id": "Chinese 285",
+			"times": [
+				{
+					"year": 2015,
+					"semester": "Fall"
+				},
+				{
+					"year": 2016,
+					"semester": "Spring"
+				},
+				{
+					"year": 2016,
+					"semester": "Fall"
+				},
+				{
+					"year": 2017,
+					"semester": "Spring"
+				},
+				{
+					"year": 2017,
+					"semester": "Fall"
+				},
+				{
+					"year": 2018,
+					"semester": "Spring"
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Teaching Fellow",
+			"class_name": "Language, Structure, and Cognition",
+			"class_id": "Linguistics 83",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Spring",
+					"sections": 1,
+					"primary_instructor": "Adam Singerman"
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Teaching Fellow",
+			"class_name": "Sounds of Language",
+			"class_id": "Linguistics 105",
+			"times": [
+				{
+					"year": 2021,
+					"semester": "Fall",
+					"sections": 2,
+					"material_folder": "2021_Ling_105",
+					"materials": [
+						{
+							"name": "Handout 1: 2021-09-09",
+							"file_name": "2021-09-09.pdf",
+							"description": "where we discuss place of articulation and manner of articulation, as well as phonation, nasality, laterality, and sonority."
+						},
+						{
+							"name": "Handout 2: 2021-09-16",
+							"file_name": "2021-09-16.pdf",
+							"description": "Where we discuss aspiration, Voice Onset Time (VOT), (a short introduction into) allophony, and vowels and vowel qualities."
+						},
+						{
+							"name": "Phoneme Forehead Detectives",
+							"file_name": "Phoneme_Identity_Game.pdf",
+							"description": "this is the pdf printout which I used to make the name tags for our phoneme 'name game/forehead detective game', feel free to use the pdf for the 'nametags' if you want to print and play your own!."
+						},
+						{
+							"name": "Handout 3: 2021-09-23",
+							"file_name": "2021-09-23.pdf",
+							"description": "Where we discuss the basic structure of a syllable, stress, common allophony in English (useful for narrow transcriptions) and more cross-linguistic variation in vowels."
+						},
+						{
+							"name": "Handout 4: 2021-09-30",
+							"file_name": "2021-09-30.pdf",
+							"description": "Where we discuss F0, formants, and what they mean for the vowel space, as well as voicing and VOT. We also practice some of our allophonic rule application."
+						},
+						{
+							"name": "Handout 5: 2021-10-07",
+							"file_name": "2021-10-07.pdf",
+							"description": "Where we discuss airflow Mechanisms, phonation types, and perceptual dispersion."
+						},
+						{
+							"name": "Midterm Review Sheet: 2021-10-14",
+							"file_name": "Midterm_Review.pdf",
+							"description": "This is a compilation of some of the parts of the previous handouts with some additional visuals and spectrogram reading help. Additionally there is a short practice for the kinds of questions that will be on the midterm."
+						},
+						{
+							"name": "Answer Sheet",
+							"file_name": "Midterm_Practice_Answers.pdf",
+							"description": "for the review sheet practice on the midterm review."
+						},
+						{
+							"name": "Handout 6: 2021-11-04",
+							"file_name": "2021-11-04.pdf",
+							"description": "Where we go over how to formally posit rules with natural classes for sound change phenomena, as well as the different kinds of rule interactions (bleeding, feeding, counterbleeding, counterfeeding)."
+						},
+						{
+							"name": "Handout 7: 2021-11-11",
+							"file_name": "2021-11-11.pdf",
+							"description": "Where we discuss syllable structure and syllabification (such as onset maximazation), as well as go over some brief phonotactic typology, the sonority sequencing principle, and the very basics of stress."
+						},
+						{
+							"name": "Additional Practice Questions",
+							"file_name": "2021-11-11_Practice.pdf",
+							"description": "based on material from Handout 7, for students who are interested."
+						},
+						{
+							"name": "Handout 8: 2021-11-18",
+							"file_name": "2021-11-18.pdf",
+							"description": "Where we discuss prosodic structures (segments, morae, syllables, feet), and how that affects stress placement in predictable stress languages. We also discuss tone and autosegmental theory, as well as scansion and how stress is used in poetry."
+						},
+						{
+							"name": "Handout 9: 2021-12-02",
+							"file_name": "2021-12-02.pdf",
+							"description": "Where we discuss metrics and poetics, specifically the structure of iambic pentameter and naturalness and markedness in rule derivation. I additionally discuss some 'best practices' when devising purely phonological rules."
+						},
+						{
+							"name": "Final Review Sheet: 2021-12-09",
+							"file_name": "Final_Review.pdf",
+							"description": "This is a compilation of some of the parts of the previous handouts (after the Midterm) in addition to some extra notes on things which have been tricky in the past. Good luck, and thank you for being such wonderful discussion sections!"
+						}
+					],
+					"primary_instructor": "Kevin Ryan"
+				},
+				{
+					"year": 2023,
+					"semester": "Spring",
+					"sections": 2,
+					"material_folder": "2023_Ling_105",
+					"materials": [
+						{
+							"name": "Section 1 Handout",
+							"file_name": "section_1.pdf",
+							"description": "where we go over section expectations, introductions, and an overview of phonation types."
+						},
+						{
+							"name": "Section 2 Handout",
+							"file_name": "section_2.pdf",
+							"description": "where we go over some excersizes about allophony, IPA transcription, and a taste of phonotactics."
+						},
+						{
+							"name": "Section 3 Handout",
+							"file_name": "section_3.pdf",
+							"description": "where we play a game of 'consonant pictionary' with midsaggital diagrams, discuss airflow mechanisms, and how to formally name consonants."
+						},
+						{
+							"name": "Section 4 Handout",
+							"file_name": "section_4.pdf",
+							"description": "where we attempt to generate some vowels in Praat, and see how they sound in comparison to our vowels formants."
+						},
+						{
+							"name": "Section 5 Handout",
+							"file_name": "section_5.pdf",
+							"description": "where we discuss the source-filter model of phonetics, and investigate generalizations of vowel systems across languages."
+						},
+						{
+							"name": "Midterm Review and Practice",
+							"file_name": "Midterm_Review_and_Practice.pdf",
+							"description": "Some midterm review as well as some practice questions."
+						},
+						{
+							"name": "Midterm Practice Answer Key",
+							"file_name": "Midterm_Practice_Answers.pdf",
+							"description": "Answers to the practice questions in the Midterm Review"
+						},
+						{
+							"name": "Section 6 Handout",
+							"file_name": "section_6.pdf",
+							"description": "where we discuss rule writing for allophony, elsewhere conditions, and universal feature theory"
+						},
+						{
+							"name": "Section 7 Handout",
+							"file_name": "section_7.pdf",
+							"description": "where we discuss how to implement universal feature theory into rule writing, different kinds of sound change, and begin to explore rule ordering."
+						},
+						{
+							"name": "Answer Key for Section 6 & 7 Practice",
+							"file_name": "Section_6-7_Answer_Key.pdf",
+							"description": "The answer key to the practice problems discussed in Sections 6 and 7"
+						},
+						{
+							"name": "Section 8 Handout",
+							"file_name": "section_8.pdf",
+							"description": "where we go over syllable structure, phonotactics, and the sonority sequencing principle"
+						},
+						{
+							"name": "Section 9 Handout",
+							"file_name": "section_9.pdf",
+							"description": "Where we discuss phonological structure such as morae and feet, and how they are used in determining stress across languages, as well as briefly discuss autosegmental theory and tonal phenomenon"
+						},
+						{
+							"name": "Haikus and Morae",
+							"file_name": "Haikus_and_Morae.pdf",
+							"description": "A companion to the section 9 handout, a list of haiku with IPA transcription. Not all of them follow the 5-7-5 rule for syllables, but they do all follow a 5-7-5 rule: what are they counting?"
+						}
+					],
+					"primary_instructor": "Kathryn Franich"
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Teaching Fellow",
+			"class_name": "Syntactic Theory I",
+			"class_id": "Linguistics 112",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Fall",
+					"sections": 1,
+					"primary_instructor": "Susi Wurmbrand",
+					"material_folder": "2022_Ling_112",
+					"materials": [
+						{
+							"name": "Sep 9 Section Handout",
+							"file_name": "SectionHandout-0909.pdf",
+							"description": "where we go over expectations for sections."
+						},
+						{
+							"name": "Sep 16 Section Handout",
+							"file_name": "SectionHandout-0916.pdf",
+							"description": "where we look at problems that arise with certain constituency tests."
+						},
+						{
+							"name": "Sep 30 Section Handout",
+							"file_name": "SectionHandout-0930.pdf",
+							"description": "where we look variable and referential readings of nominals, and differences between binding and non-binding configurations of multiple nominals (reflexivity, strict and sloppy readings, etc.)"
+						},
+						{
+							"name": "Oct 26 Section Handout",
+							"file_name": "Lecture-1026.pdf",
+							"description": "where we take a look at Minimalist accounts of phrasal movement, with a special focus on properties of movement, and theories of internal and late merge."
+						}
+					]
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Teaching Fellow",
+			"class_name": "Sentence Structure",
+			"class_id": "Linguistics 102",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Fall",
+					"sections": 1,
+					"primary_instructor": "James C.T. Huang",
+					"material_folder": "2022_Ling_102",
+					"materials": [
+						{
+							"name": "Sep 14 Handout",
+							"file_name": "SectionHandout-0914.pdf",
+							"description": "where we go over section expectations, what 'Language' means, and the concepts of categories (nouns, verbs, etc.) and constituency."
+						},
+						{
+							"name": "Sep 21 Handout",
+							"file_name": "SectionHandout-0921.pdf",
+							"description": "where we practice more constituency tests, such as passivization, clefting, and pro-forms."
+						},
+						{
+							"name": "Sep 28 Handout",
+							"file_name": "SectionHandout-0928.pdf",
+							"description": "where we discuss the English auxiliary system, tense and aspect, and hierarchical notions of distance."
+						},
+						{
+							"name": "Oct 12 Handout",
+							"file_name": "SectionHandout-1012.pdf",
+							"description": "where we introduce X-bar theory and bare phrase structure rules."
+						}
+					]
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Teaching Fellow",
+			"class_name": "Tutorial Senior Year",
+			"class_id": "Linguistics 99A/B",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Fall",
+					"primary_instructor": "Yağmur Sağ"
+				},
+				{
+					"year": 2023,
+					"semester": "Spring",
+					"primary_instructor": "Yağmur Sağ"
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "One-on-one Tutor",
+			"class_name": "Tutorial Senior Year",
+			"class_id": "East Asian Languages 99A/B",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Fall",
+					"primary_instructor": "Yitian Li"
+				},
+				{
+					"year": 2023,
+					"semester": "Spring",
+					"primary_instructor": "Yitian Li"
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Curriculum Design/Primary Instructor",
+			"class_name": "Sophomore Tutorial (Writing Systems and Language Conservation)",
+			"class_id": "Linguistics 97R",
+			"times": [
+				{
+					"year": 2022,
+					"semester": "Spring",
+					"material_folder": "2022_Ling_97R",
+					"materials": [
+						{
+							"name": "Syllabus",
+							"file_name": "Ling97r_Syllabus.pdf",
+							"description": ""
+						},
+						{
+							"name": "Week 1 Handout",
+							"file_name": "Ling97r_Week1_Handout.pdf",
+							"description": "where we discuss different models of how writing fits into language and cognition, and introduce some terminology and theoretical notation which we will use for the rest of the course."
+						},
+						{
+							"name": "Week 1 Assignment",
+							"file_name": "Ling97r_Week1_Assignment.pdf",
+							"description": "Some field work where you find instances of non-Latin scripts, and a challenge using a 'writing system' commonly seen on the internet."
+						},
+						{
+							"name": "Week 2 Handout 1",
+							"file_name": "Ling97r_Week2_Handout1.pdf",
+							"description": "where we go over the invention of writing and the design of logographic scripts."
+						},
+						{
+							"name": "Week 2 Handout 2",
+							"file_name": "Ling97r_Week2_Handout2.pdf",
+							"description": "where we discuss the adoption and evolution of writing systems."
+						},
+						{
+							"name": "Week 2 Assignment",
+							"file_name": "Ling97r_Week2_Assignment.pdf",
+							"description": "Making a rebus for your own names, some analytical work on some scripts."
+						},
+						{
+							"name": "Week 3 Handout",
+							"file_name": "Ling97r_Week3_Handout.pdf",
+							"description": "Finishing writing system categorization with syllabaries and featural alphabets, and then moving on to how languages adapt non-native scripts and some strategies for representing sounds not found in the original script."
+						},
+						{
+							"name": "Week 3 Assignment",
+							"file_name": "Ling97r_Week3_Assignment.pdf",
+							"description": "Dealing with ambiguities and morphophonological considerations when designing an orthography."
+						},
+						{
+							"name": "Week 4 Handout",
+							"file_name": "Ling97r_Week4_Handout.pdf",
+							"description": "Looking at Diasystems, different interactions between orthography and socio-politics and technology, and auxiliary systems."
+						},
+						{
+							"name": "Week 4 Assignment",
+							"file_name": "Ling97r_Week4_Assignment.pdf",
+							"description": "Looking at stress marking in Spanish and an English spelling rule you likely were not taught, but already know."
+						},
+						{
+							"name": "Final Project",
+							"file_name": "Ling97r_Final_Project.pdf",
+							"description": "A preliminary analysis of Harvardese phonology and morphology in preparation for the new Orthographic Committee of the Harvard Archipelago (that's you!)."
+						},
+						{
+							"name": "Harvardese Orthography",
+							"url": "/pages/more/2022_ling97_final_project.html",
+							"description": "Examples of the orthography that you created!"
+						}
+					]
+				}
+			]
+		},
+		{
+			"institution": "Harvard University",
+			"position": "Curriculum Design/Primary Instructor",
+			"class_name": "Elementary Manchu",
+			"class_id": "Manchu A/B",
+			"times": [
+				{
+					"year": 2023,
+					"semester": "Fall",
+					"material_folder": "Manchu_A",
+					"materials": []
+				},
+				{
+					"year": 2024,
+					"semester": "Spring",
+					"material_folder": "Manchu_B",
+					"materials": []
+				}
+			]
+		}
+	],
+	"work_data": [
+		{
+			"organization": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"start": {
+						"year": 2017,
+						"month": 5
+					},
+					"end": {
+						"year": 2019,
+						"month": 5
+					}
+				}
+			],
+			"position": "Editor and Research Assistant",
+			"note": "for a <a href='https://doi.org/10.1017/9781316476925'>Phonological History of Chinese</a> under Professor Zhongwei Shen",
+			"bullets": [
+				"Editing and indexing an academic book on Chinese historical phonology to be published",
+				"Checking for grammar and spelling mistakes",
+				"Clarifying any areas of the book left ambiguous"
+			],
+			"position_type": "paid",
+			"service_type": "Research"
+		},
+		{
+			"organization": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"start": {
+						"year": 2015,
+						"month": 9
+					},
+					"end": {
+						"year": 2016,
+						"month": 5
+					}
+				},
+				{
+					"start": {
+						"year": 2016,
+						"month": 9
+					},
+					"end": {
+						"year": 2017,
+						"month": 5
+					}
+				},
+				{
+					"start": {
+						"year": 2017,
+						"month": 9
+					},
+					"end": {
+						"year": 2018,
+						"month": 5
+					}
+				}
+			],
+			"position": "Teaching Assistant",
+			"bullets": [],
+			"position_type": "volunteer",
+			"service_type": "Teaching"
+		},
+		{
+			"organization": "Harvard University",
+			"dates": [
+				{
+					"start": {
+						"year": 2021,
+						"month": 9
+					},
+					"end": {
+						"year": 2022,
+						"month": 5
+					}
+				},
+				{
+					"start": {
+						"year": 2022,
+						"month": 9
+					},
+					"end": {
+						"year": 2023,
+						"month": 5
+					}
+				},
+				{
+					"start": {
+						"year": 2023,
+						"month": 9
+					},
+					"end": {
+						"year": 2024,
+						"month": 5
+					}
+				}
+			],
+			"position": "Teaching Fellow",
+			"bullets": [],
+			"position_type": "paid",
+			"service_type": "Teaching"
+		},
+		{
+			"organization": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"start": {
+						"year": 2018,
+						"month": 9
+					},
+					"end": {
+						"year": 2019,
+						"month": 5
+					}
+				}
+			],
+			"position": "President",
+			"note": "of UMass Chinese Conversation Club",
+			"bullets": [
+				"Run through University of Massachusetts Amherst Department of East Asian Languages and Cultures"
+			],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"start": {
+						"year": 2016,
+						"month": 1
+					},
+					"end": {
+						"year": 2017,
+						"month": 5
+					}
+				}
+			],
+			"position": "Work Staff",
+			"note": "at Worcester Dining Common",
+			"bullets": [
+				"Trained rigorously in food safety in both handling and preparation",
+				"Responsible for preparing and serving food in high-pressure environments",
+				"Duties include: Preparing sushi, working grill, working in kitchen, serving in line, working register, bussing tables, closing kitchen, and hosting"
+			],
+			"position_type": "paid"
+		},
+		{
+			"organization": "Chatime and Beard Papa Bakery",
+			"dates": [
+				{
+					"start": {
+						"year": 2016,
+						"month": 5
+					},
+					"end": {
+						"year": 2016,
+						"month": 9
+					}
+				}
+			],
+			"position": "Barista and Baker",
+			"bullets": [
+				"Trained rigorously in food safety in both handling and preparation, as well as working and fixing machinery",
+				"Responsible for preparing and serving food and drink in high-pressure environments",
+				"Duties include: opening and closing kitchen preparing tea, mixing drinks, advertising, baking pastries and custard, cleaning, working register, bussing tables, and hosting"
+			],
+			"position_type": "paid"
+		},
+		{
+			"organization": "Environmental Science Camp of Newton",
+			"dates": [
+				{
+					"start": {
+						"year": 2013,
+						"month": 5
+					},
+					"end": {
+						"year": 2013,
+						"month": 7
+					}
+				},
+				{
+					"start": {
+						"year": 2014,
+						"month": 5
+					},
+					"end": {
+						"year": 2014,
+						"month": 7
+					}
+				},
+				{
+					"start": {
+						"year": 2015,
+						"month": 5
+					},
+					"end": {
+						"year": 2015,
+						"month": 7
+					}
+				},
+				{
+					"start": {
+						"year": 2016,
+						"month": 5
+					},
+					"end": {
+						"year": 2016,
+						"month": 7
+					}
+				}
+			],
+			"position": "Camp Leader/Counselor",
+			"bullets": [
+				"Was responsible for the health and well being of middle school children while planning field trips, educational curriculum, creating maps and flyers",
+				"Assisted children in increasingly strenuous physical activities, culminating in a three day hike up Mt. Washington"
+			],
+			"position_type": "paid"
+		},
+		{
+			"organization": "Environmental Science Camp of Newton",
+			"dates": [
+				{
+					"start": {
+						"year": 2012,
+						"month": 5
+					},
+					"end": {
+						"year": 2012,
+						"month": 7
+					}
+				}
+			],
+			"position": "Camp Leader-in-Training",
+			"bullets": [],
+			"position_type": "volunteer"
+		},
+		{
+			"organization": "Taiwan United States Alliance Global Ambassador Scholarship Program",
+			"dates": [
+				{
+					"start": {
+						"year": 2018,
+						"month": 6
+					},
+					"end": {
+						"year": 2018,
+						"month": 8
+					}
+				}
+			],
+			"position": "Cultural Ambassador",
+			"note": "",
+			"bullets": [
+				"Conducted interpretation work between teachers and students",
+				"Conducted historical documentation work with indigenous (Paiwan and Rukai)communities in Pingtung",
+				"Took various language and culture classes",
+				"Participated in cultural exchanges"
+			],
+			"position_type": "scholarship"
+		},
+		{
+			"organization": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"start": {
+						"year": 2015,
+						"month": 9
+					},
+					"end": {
+						"year": 2018,
+						"month": 5
+					}
+				}
+			],
+			"position": "Member",
+			"note": "of Johnson, Lewis, Thatcher (JOLT) Cluster Programming Board",
+			"bullets": [
+				"Working in conjunction with House Council and Resident Director in planning and organizing events for House Cluster",
+				"In charge of graphic design and flyer advertising for house events",
+				"Attended weekly Board meetings"
+			],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Newton South High School",
+			"dates": [
+				{
+					"start": {
+						"year": 2014,
+						"month": 9
+					},
+					"end": {
+						"year": 2015,
+						"month": 6
+					}
+				}
+			],
+			"position": "Teaching Assistant",
+			"note": "in ELL classes",
+			"bullets": [
+				"For course credit assisted two teachers by tutoring non-native speaking students in English skills, Physics, Calculus, and History",
+				"Students came from China, Korea, Japan, the Philippines, Syria, Russia, Azerbaijan, Pakistan, Israel, and Iran",
+				"Planned and taught small modules on English grammar and vocabulary"
+			],
+			"position_type": "course credit",
+			"service_type": "Teaching"
+		},
+		{
+			"organization": "Newton Beijing Jingshan Exchange Program",
+			"dates": [
+				{
+					"start": {
+						"year": 2014,
+						"month": 5
+					},
+					"end": {
+						"year": 2015,
+						"month": 6
+					}
+				}
+			],
+			"position": "Student Member",
+			"note": "of Executive Committee of Newton Jingshan School Exchange Program",
+			"bullets": [
+				"Served as the first student to the Executive Board.",
+				"Acted as host and liaison to visiting Chinese students, helping them acclimate to the US and to High School",
+				"Served as a resource to American students going to China",
+				"Attended monthly Board meetings",
+				"Helped plan events and assisted Exchange Program Coordinator",
+				"Designed and Created flyers to advertise events",
+				"Gave presentations to Newton School Superintendant, Newton’s Mayor, the Executive Board and interested members of community"
+			],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Newton Beijing Jingshan Exchange Program",
+			"dates": [
+				{
+					"start": {
+						"year": 2012,
+						"month": 5
+					},
+					"end": {
+						"year": 2016,
+						"month": 7
+					}
+				}
+			],
+			"position": "Exchange Student",
+			"note": "",
+			"bullets": [
+				"Spent second semester junior year attending public school in Beijing taking classes in English and Mandarin",
+				"Lived with Chinese host family",
+				"Visited and researched Tibet as subject for Junior Thesis",
+				"Gave informational presentations about the program to students at Newton South High School"
+			],
+			"position_type": "scholarship"
+		},
+		{
+			"organization": "Newton South Lion's Roar",
+			"dates": [
+				{
+					"start": {
+						"year": 2011,
+						"month": 9
+					},
+					"end": {
+						"year": 2014,
+						"month": 1
+					}
+				}
+			],
+			"position": "Writer/Editor",
+			"note": "for school newspaper",
+			"bullets": [
+				"Worked in a several capacities over the three years, including Opinions Writer, Columnist, and Editor",
+				"Utilized InDesign and Photoshop applications, as well as Microsoft Word"
+			],
+			"position_type": "volunteer"
+		},
+		{
+			"organization": "Concordia Language Villages",
+			"dates": [
+				{
+					"start": {
+						"year": 2019,
+						"month": 5
+					},
+					"end": {
+						"year": 2019,
+						"month": 6
+					}
+				}
+			],
+			"position": "Instructor",
+			"note": "at Concordia Language Village Chinese Residential Language Camp",
+			"bullets": [],
+			"position_type": "paid",
+			"service_type": "Teaching"
+		},
+		{
+			"organization": "Harvard University Derek Bok Center for Teaching and Learning",
+			"dates": [
+				{
+					"start": {
+						"year": 2022,
+						"month": 8
+					},
+					"end": {
+						"year": 2024,
+						"month": 5
+					}
+				}
+			],
+			"position": "Departmental Writing Fellow",
+			"note": "for the Harvard University Department of Linguistics",
+			"bullets": [],
+			"position_type": "paid",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Harvard University Graduate Commons Program",
+			"dates": [
+				{
+					"start": {
+						"year": 2021,
+						"month": 9
+					},
+					"end": {
+						"year": 2022,
+						"month": 5
+					}
+				},
+				{
+					"start": {
+						"year": 2022,
+						"month": 9
+					},
+					"end": {
+						"year": 2023,
+						"month": 5
+					}
+				}
+			],
+			"position": "Community Advisor",
+			"bullets": [
+				"Academic and Career Development Initiative (ACDI) Team"
+			],
+			"position_type": "rent reduction",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Harvard University Graduate Commons Program",
+			"dates": [
+				{
+					"start": {
+						"year": 2023,
+						"month": 9
+					},
+					"end": {
+						"year": 2024,
+						"month": 5
+					}
+				}
+			],
+			"position": "Senior Community Advisor",
+			"bullets": [
+				"Academic and Career Development Initiative (ACDI) Team"
+			],
+			"position_type": "rent reduction",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Harvard University Linguistics Department Graduate Students",
+			"dates": [{
+				"start": {
+					"year": 2021,
+					"month": 6
+				},
+				"end": {
+					"year": 2023,
+					"month": 5
+				}
+			}],
+			"position": "Representative to the Graduate Student Union",
+			"bullets": [],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Harvard University Linguistics Department Graduate Students",
+			"dates": [{
+				"start": {
+					"year": 2020,
+					"month": 6
+				},
+				"end": {
+					"year": 2023,
+					"month": 5
+				}
+			}],
+			"position": "Co-President",
+			"note": "of Harvard Graduate Students in Linguistics Committee (HGSL)",
+			"bullets": [],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Harvard University Linguistics Department Graduate Students",
+			"dates": [{
+				"start": {
+					"year": 2020,
+					"month": 6
+				},
+				"end": {
+					"year": 2022,
+					"month": 5
+				}
+			}],
+			"position": "Coordinator",
+			"note": "for the Linguistics Circle Workshop",
+			"bullets": [],
+			"position_type": "volunteer",
+			"service_type": "Service"
+		},
+		{
+			"organization": "Boston University",
+			"dates": [{
+				"start": {
+					"year": 2022,
+					"month": 6
+				},
+				"end": {
+					"year": 2022,
+					"month": 12
+				}
+			}],
+			"position": "Research Assistant",
+			"note": "for Linguistic typology: The Pahoturi River language family, under <a href='https://katelynnlindsey.weebly.com/'>Kate Lindsey</a>",
+			"bullets": [],
+			"position_type": "paid",
+			"service_type": "Research"
+		},
+		{
+			"organization": "Luke Adamson",
+			"dates": [{
+				"start": {
+					"year": 2022,
+					"month": 4
+				},
+				"end": {
+					"year": 2022,
+					"month": 9
+				}
+			}],
+			"position": "Research Assistant",
+			"note": "for Cross-linguistic Clusterings of Gender 'Default' Phenomena, under <a href='https://lukejamesadamson.wixsite.com/linguistics'>Luke Adamson</a>",
+			"bullets": [],
+			"position_type": "paid",
+			"service_type": "Research"
+		},
+		{
+			"organization": "Harvard Manchu Reading Group",
+			"dates": [{
+				"start": {
+					"year": 2021,
+					"month": 1
+				},
+				"end": {
+					"year": 2022,
+					"month": 4
+				}
+			}],
+			"position": "Founder and Organizer",
+			"note": "of the Harvard Manchu Reading Group",
+			"bullets": [],
+			"position_type": "volunteer",
+			"service_type": "Labs and Organizations"
+		},
+		{
+			"organization": "Meaning and Modality Lab",
+			"dates": [{
+				"start": {
+					"year": 2019,
+					"month": 9
+				}
+			}],
+			"position": "Lab Member",
+			"bullets": [],
+			"position_type": "lab member",
+			"service_type": "Labs and Organizations"
+		},
+		{
+			"organization": "WOLF Lab",
+			"dates": [{
+				"start": {
+					"year": 2022,
+					"month": 9
+				}
+			}],
+			"position": "Lab Member",
+			"bullets": [],
+			"position_type": "lab member",
+			"service_type": "Labs and Organizations"
+		},
+		{
+			"organization": "SULa Lab",
+			"dates": [{
+				"start": {
+					"year": 2022,
+					"month": 9
+				}
+			}],
+			"position": "Lab Member",
+			"bullets": [],
+			"position_type": "lab member",
+			"service_type": "Labs and Organizations"
+		}
+	],
+	"awards_data": [
+		{
+			"name": "Scholarship for the Global Ambassador Summer Program at National Cheng Kung University (NCKU)",
+			"institution": "Taiwan-United States Sister Relations Alliance",
+			"dates": [
+				{
+					"year": 2017,
+					"month": 4
+				}
+			]
+		},
+		{
+			"name": "Dean's List Honors",
+			"institution": "University of Massachusetts, Amherst",
+			"dates": [
+				{
+					"year": 2015,
+					"month": 12
+				},
+				{
+					"year": 2016,
+					"month": 5
+				},
+				{
+					"year": 2016,
+					"month": 12
+				},
+				{
+					"year": 2017,
+					"month": 5
+				},
+				{
+					"year": 2017,
+					"month": 12
+				},
+				{
+					"year": 2018,
+					"month": 5
+				},
+				{
+					"year": 2018,
+					"month": 12
+				},
+				{
+					"year": 2019,
+					"month": 5
+				}
+			]
+		},
+		{
+			"name": "Best Fluency in Mandarin",
+			"institution": "Five College Speech Contest hosted at Smith College",
+			"dates": [
+				{
+					"year": 2017,
+					"month": 4
+				}
+			]
+		}
+	],
+	"education_data": [
+		{
+			"certificate": "Teaching English as a Foreign Language (TEFL) Certification",
+			"institution": "Boston Language Institute",
+			"date": {
+				"start": {
+					"year": 2014,
+					"month": 6
+				},
+				"end": {
+					"year": 2014,
+					"month": 10
+				}
+			}
+		},
+		{
+			"certificate": "Exchange Student on the Newton-Beijing Jingshan Program",
+			"institution": "Beijing Jingshan School",
+			"date": {
+				"start": {
+					"year": 2014,
+					"month": 1
+				},
+				"end": {
+					"year": 2014,
+					"month": 5
+				}
+			}
+		},
+		{
+			"certificate": "High School",
+			"institution": "Newton South High School",
+			"date": {
+				"start": {
+					"year": 2011,
+					"month": 9
+				},
+				"end": {
+					"year": 2015,
+					"month": 6
+				}
+			}
+		},
+		{
+			"certificate": "B.A. in Linguistics",
+			"institution": "University of Massachusetts, Amherst",
+			"date": {
+				"start": {
+					"year": 2015,
+					"month": 9
+				},
+				"end": {
+					"year": 2019,
+					"month": 5
+				}
+			}
+		},
+		{
+			"certificate": "B.A. in Chinese Language and Literature",
+			"institution": "University of Massachusetts, Amherst",
+			"date": {
+				"start": {
+					"year": 2015,
+					"month": 9
+				},
+				"end": {
+					"year": 2019,
+					"month": 5
+				}
+			}
+		},
+		{
+			"certificate": "Ph.D. in Linguistics",
+			"institution": "Harvard University",
+			"date": {
+				"start": {
+					"year": 2019,
+					"month": 9
+				},
+				"end": {
+					"year": 2025,
+					"month": 5
+				}
+			}
+		}
+	],
+	"language_data": [
+		{
+			"language": "English",
+			"proficiency": "Fluent/Native"
+		},
+		{
+			"language": "Mandarin",
+			"proficiency": "Proficient/Fluent"
+		},
+		{
+			"language": "Manchu",
+			"proficiency": "Intermediate"
+		},
+		{
+			"language": "Early Mandarin",
+			"proficiency": "Historical Work"
+		},
+		{
+			"language": "Classical Chinese",
+			"proficiency": "Historical Work"
+		},
+		{
+			"language": "Bai",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Ende (Pahoturi River)",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Icibemba",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Japanese",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Manchu",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Sibe",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Nuosu Yi",
+			"proficiency": "Field Work"
+		},
+		{
+			"language": "Uyghur",
+			"proficiency": "Field Work"
+		}
+	],
+	"skills_data": [
+		"LaTeX",
+		"R (tidyverse)",
+		"FLEx",
+		"HTML5",
+		"CSS3",
+		"Javascript",
+		"Python",
+		"Inkscape",
+		"Adobe Photoshop"
+	]
+}

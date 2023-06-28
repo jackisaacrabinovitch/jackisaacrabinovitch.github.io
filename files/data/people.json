@@ -1,0 +1,98 @@
+[
+    {
+        "id":"rabinovitch-jack",
+        "names": [
+            {
+                "surname": "Rabinovitch",
+                "given_name": "Jack Isaac"
+            }
+        ],
+        "website": "https://jackisaacrabinovitch.github.io/",
+        "email": "jrabinovitch@g.harvard.edu",
+        "affiliations": [
+            {
+                "name": "Harvard University Department of Lingusitics",
+                "url": "https://linguistics.fas.harvard.edu/"
+            },
+            {
+                "name": "Meaning and Modality Lab",
+                "url": "https://projects.iq.harvard.edu/meaningandmodality"
+            },
+            {
+                "name": "Structures of Under-researched Langauges Lab",
+                "url": "https://sites.bu.edu/sulalab/"
+            },
+            {
+                "name": "Harvard Fieldwork Lab (WOLF Lab)",
+                "url": "https://fieldlinguistics.github.io/"
+            }
+        ],
+        "photo":"no"
+    },
+    {
+        "id":"qian-baoqing",
+        "names": [
+            {
+                "surname": "Qian",
+                "given_name": "Baoqing"
+            }
+        ],
+        "website": "https://www.baoqingchinese.com/",
+        "email": "qianbaoqingscda2010@gmail.com",
+        "affiliations": [
+            {
+                "name": "Boston University Department of World Languages and Literature",
+                "url": "https://www.bu.edu/wll/"
+            },
+            {
+                "name": "Brandeis Department of World Languages and Cultures",
+                "url": "https://www.brandeis.edu/world-languages-cultures/"
+            }
+        ],
+        "photo":"yes"
+    },
+    {
+        "id":"wang-siyu",
+        "names": [
+            {
+                "surname": "Wang",
+                "given_name": "Siyu"
+            }
+        ],
+        "email": "siyuwang@pku.edu.cn",
+        "affiliations": [
+            {
+                "name": "Peking University, Institute for Foreign Linguistics and Applied Linguistics"
+            }
+        ],
+        "photo":"yes"
+    },
+    {
+        "id":"cui-jian",
+        "names": [
+            {
+                "surname": "Cui",
+                "given_name": "Jian"
+            }
+        ],
+        "email": "jiancui@fas.harvard.edu",
+        "affiliations": [
+            {
+                "name": "Harvard University Department of Lingusitics",
+                "url": "https://linguistics.fas.harvard.edu/"
+            },
+            {
+                "name": "Harvard Fieldwork Lab (WOLF Lab)",
+                "url": "https://fieldlinguistics.github.io/"
+            },
+            {
+                "name": "Harvard Phonetics Lab (PhonLab)"
+            },
+            {
+                "name":"Snedeker Lab, Harvard Laboratory of Developmental Studies",
+                "url":"https://www.harvardlds.org/our-labs/snedeker-lab/"
+            }
+        ],
+        "photo":"yes"
+    }
+]
