@@ -1,0 +1,78 @@
+1
+00:00:03.750 --> 00:00:10.800
+Jack Rabinovitch: Some languages make morphosyntactic distinctions between the complements of extensional predicates, such as "know", and intensional predicates, such as "wonder".
+
+2
+00:00:11.340 --> 00:00:19.620
+Jack Rabinovitch: In this presentation, I discuss some novel data from Uyghur, collected with a native speaker in the United States, which suggests that Uyghur is one such language,
+
+3
+00:00:19.860 --> 00:00:24.750
+Jack Rabinovitch: and that extensional predicates can embed intensional complements when the predicate is embedded under a modal verb.
+
+
+4
+00:00:25.530 --> 00:00:33.720
+Jack Rabinovitch: I propose that the facts mentioned come about naturally if we assume that: 1) intensional predicates are actually complex predicates containing two extensional predicates,
+
+
+5
+00:00:34.020 --> 00:00:40.410
+Jack Rabinovitch: and 2) intensional complements contain three world arguments rather than the two world arguments assumed by previous analyses.
+
+6
+00:00:41.850 --> 00:00:49.860
+Jack Rabinovitch: The complementizer "dep" embeds intensional interrogative complements such as in (4), but cannot embed extensional interrogative complements such as in (5). 
+
+7
+00:00:50.460 --> 00:01:04.380
+Jack Rabinovitch: This suggests that "dep" embeds intensional complements only; however, as (6) shows, "dep" is grammatical when embedding under an extensional predicate when the predicate is itself embedded under a modal verb. I call this the "intensional-under-extensional" construction.
+
+8
+00:01:06.270 --> 00:01:13.800
+Jack Rabinovitch: Extensional complements are index dependent, meaning that the propositions true of the world of the complement are necessarily true of the matrix world.
+
+9
+00:01:14.280 --> 00:01:26.220
+Jack Rabinovitch: Intensional complements are understood as index indepenent, lacking this restriction. For instance: Who Sean knows is happy is dependent on who is happy in the real world, while who Sean guesses is happy is not.
+
+10
+00:01:27.480 --> 00:01:44.760
+Jack Rabinovitch: Partee and Rooth (1983) derive this difference by arguing that extensional complements have an unabstracted world argument, bound by the matrix world. This argument is abstracted over and closed in intensional complements, no longer bindable by the matrix world, thus index independent.
+
+11
+00:01:46.020 --> 00:01:54.990
+Jack Rabinovitch: Under this analysis, we expect intensional complements to always be incompatible with extensional predicates, something contradicted by Uyghur's "intensional-under-extensional" constructions.
+
+12
+00:01:56.640 --> 00:02:01.350
+Jack Rabinovitch: I propose that intensional complements equivocate three worlds with respect to a proposition.
+
+13
+00:02:01.830 --> 00:02:11.040
+Jack Rabinovitch: Extensional complements, which evaluate two worlds, must undergo closure once, so all of the worlds have referents: one quantified in the embedded clause and the other bound by the matrix world.
+
+14
+00:02:11.670 --> 00:02:17.910
+Jack Rabinovitch: Thus under the new definition, intensional complements must undergo closure twice to be compatible with a matrix clause.
+
+15
+00:02:18.660 --> 00:02:23.850
+Jack Rabinovitch: Intensional predicates like "ask" are composite of two verbs, each one performing closure once.
+
+16
+00:02:24.420 --> 00:02:33.330
+Jack Rabinovitch: The same work can be done by an extensional predicate and a modal, such as "want to know". In this case, the world argument - w - is quantified and is the "known" world,
+
+17
+00:02:33.750 --> 00:02:42.810
+Jack Rabinovitch: the world argument - w' - is quantified and is the "wanted" world in which the knowing happens, and the final world - w'' - is bound by the matrix world.
+
+18
+00:02:44.580 --> 00:02:50.520
+Jack Rabinovitch: I argue that index independence is not brought about by severing the binding relationship between embedded and matrix world,
+
+19
+00:02:50.730 --> 00:02:59.280
+Jack Rabinovitch: but rather through the fact that under intensional predicates, the attitude holder does not hold knowledge over their world; they simply have some attitude about holding such knowledge.
+

@@ -1,0 +1,328 @@
+1
+00:00:03,659 --> 00:00:05,640
+Hi, I'm Jack and welcome to my talk.
+
+2
+00:00:09,900 --> 00:00:15,360
+In languages with indexical shift, it can be difficult to distinguish indexically shifted complements from quotation.
+
+3
+00:00:16,650 --> 00:00:22,980
+One common diagnostic is to check the scope of the content question items (CQIs), otherwise known as wh-items.
+
+4
+00:00:24,360 --> 00:00:30,420
+Wide scope readings of CQIs are associated with indexical shift, while narrow scope readings are associated with quotation.
+
+5
+00:00:31,890 --> 00:00:41,400
+This diagnostic has been used to distinguish quotation and non-quotation across many indexically shifting languages, including Uyghur, a Turkic language with mandatory personal pronoun shift.
+
+6
+00:00:44,220 --> 00:00:50,220
+In this presentation, I will discuss novel data collected with a Uyghur speaker in the United States which shows
+
+7
+00:00:50,760 --> 00:00:58,290
+a) That Uyghur is a typical Partial Null Subject (or PNS) language except that it allows non-controlled embedded subjects to drop,
+
+8
+00:00:59,130 --> 00:01:12,390
+b) That Uyghur allows narrow scope readings of CQIs in places where wide scope is expected to be mandatory, and,  c) That these unexpected narrow scope readings do not allow non-controlled embedded subjects to drop.
+
+9
+00:01:14,010 --> 00:01:25,770
+I argue that these facts can be explained by assuming that a) Uyghur C-heads without a Force Phrase projection license third person subject drop, regardless of control, which explains this first observation,
+
+10
+00:01:26,430 --> 00:01:34,230
+and b) that Uyghur allows embedding of Force Phrases, which forces narrow scope interpretation of CQIs and prevents non-controlled subject dropping
+
+11
+00:01:37,020 --> 00:01:45,930
+The analysis will look like this: First I will argue that Uyghur is a PNS language, then I will discuss the CQI Scope Diagnostic for quotation.
+
+12
+00:01:46,740 --> 00:01:56,460
+After this I will discuss how CQI scope and null subjects interact in Uyghur, after which I will discuss my proposal to explain their unexpected interaction.
+
+13
+00:01:59,130 --> 00:02:10,710
+Holmberg (2009) describes the properties of PNS languages as follows: In these languages, subjects cannot be dropped unless: they have a generic interpretation, in which case they must be dropped,
+
+14
+00:02:11,250 --> 00:02:19,590
+they are controlled by an antecedent in a higher clause, in which case dropping is optional, and in some languages like Finnish, first and second person subjects can freely drop.
+
+15
+00:02:22,860 --> 00:02:24,630
+Now we'll look at Uyghur and see if it makes the cut.
+
+16
+00:02:26,070 --> 00:02:42,060
+Uyghur allows first and second person subjects to drop freely as seen in (5) and (6), where "men" and "sen" can be dropped, respectively, while for (7), even with a clear discourse referent in the previous sentence, matrix clause third person subjects such as the "u" must be overt.
+
+17
+00:02:44,550 --> 00:02:51,990
+Uyghur has mandatory third person dropping when the subject is generic, as in (8), where the third person subject "ular" is banned.
+
+18
+00:02:53,250 --> 00:03:00,540
+Additionally, third person subjects controlled by an antecendent, such as "u" controlled by "Ayishe" in (9), can optionally drop.
+
+19
+00:03:02,040 --> 00:03:06,090
+Given these facts, it seems that Uyghur is a Partial Null Subject language.
+
+20
+00:03:07,110 --> 00:03:12,870
+However, there is one place where Uyghur differs from typical PNS languages, and that's in (10).
+
+21
+00:03:13,830 --> 00:03:24,330
+In (10), "u" is the subject of the embedded clause, but is not coreferent with the matrix subject "Tursun", as a result, there is no referent in this sentence which can control "u".
+
+22
+00:03:25,260 --> 00:03:35,820
+If "u" is to be interpreted as non-generic and is not controlled, we would expect it to be mandatorily overt in a PNS language, and yet here it is optionally null.
+
+23
+00:03:37,260 --> 00:03:40,770
+This is a puzzle that we will deal with later on, specifically in Slide 15.
+
+24
+00:03:43,530 --> 00:03:50,550
+Now onto CQI scope. The CQI scope diagnostic comes out of the idea that Indexical Shift is unique from Quotation,
+
+25
+00:03:50,850 --> 00:03:56,670
+in that while Quotation is a black box, where no operations between the quotation and the matrix clause can occur,
+
+26
+00:03:57,180 --> 00:04:12,570
+Indexical shift allows free movement and licensing between the complement clause and the matrix. Under the shifty operator approach, indexical shift is caused by an operator which rewrites the referent of indexical items, but has no effect on opacity otherwise.
+
+27
+00:04:14,880 --> 00:04:24,510
+This opacity only implies a one way relationship, in which Quotation necessarily implies Narrow Scope interpretation of CQIs, but the converse is not necessarily true.
+
+28
+00:04:25,530 --> 00:04:33,030
+In fact, narrow scoping CQIs can be licensed by resultative and rogative predicates, such as "know" and "wonder" in (12).
+
+29
+00:04:34,530 --> 00:04:47,400
+Interestingly, quotations seems to enforce an intensional reading of the complement, such as in (13), where "say", a resultative predicate, is typically interpreted with an extensional meaning, but gains an intensional meaning under quotation.
+
+30
+00:04:50,880 --> 00:04:59,040
+The "true" diagnostic cannot tell us if something is quotational, only that if it is quotational it must have narrow scoping CQIs.
+
+31
+00:04:59,430 --> 00:05:11,220
+So instead, amongst much of the literature, there's an implicit assumption that is made about narrow scoping CQIs, namely that: Narrow Scope CQIs imply quotation if and only if:
+
+32
+00:05:11,760 --> 00:05:18,690
+a) the embedding predicate does not license an interrogative complement, or b) the embedding predicates licenses
+
+33
+00:05:19,110 --> 00:05:37,950
+licenses an extensionally interpreted interrogative complement, but the complement instead has an intensional interpretation. We can see instances of (14a) in (15a), where "think", an anti-rogative predicate can take an interrogative quotation, but not an interrogative non-quotational complement.
+
+34
+00:05:39,300 --> 00:05:50,340
+(14b) is instatiated in (15b), where "say", a resultative predicate, can license an intensional complement under quotation, but not otherwise.
+
+35
+00:05:53,310 --> 00:06:01,980
+Now let's take a look at the interaction between null subjects and the interpretation of CQIs. For these examples I use the verb for saying in Uyghur,
+
+36
+00:06:02,640 --> 00:06:13,230
+though this also holds for anti-rogative predicates. If you are wondering why an extensional interpretation of these sentences are not available, look into my 2021 NELS poster which talks about this!
+
+37
+00:06:14,370 --> 00:06:24,990
+In (16), we have an overt third person subject in the embedded clause, not coreferent with the matrix subject. This sentence can have both a wide and narrow interpretation of its CQI.
+
+38
+00:06:25,920 --> 00:06:32,130
+For (17), where the third person subject is null, only the wide scope interpretation is allowed.
+
+39
+00:06:33,120 --> 00:06:46,920
+This completely follows if we continue to assume that a null third person is only licensed in non-quotational complements, and that in these instances, a non-quotational complement should result in a wide-scope, or at least extensional, interpretation.
+
+40
+00:06:48,150 --> 00:06:57,930
+While (16b) is fine as a quotation, (17b) is not, and because being a quotation is the only way, so far, to get the intended reading, it must be ungrammatical.
+
+41
+00:07:00,780 --> 00:07:07,020
+Uyghur interestingly, also allows accusative subjects. While accusative subjects are banned in matrix clauses, see (18),
+
+42
+00:07:08,760 --> 00:07:21,330
+they are perfectly fine as a replacement for their nominative counterparts in embedded clauses, such as (19). Shlkovsky and Sudo (2014) argue that the accusative subject is in SpecCP position, above any shifty operators.
+
+43
+00:07:22,440 --> 00:07:23,970
+One issue arises, however,
+
+44
+00:07:25,290 --> 00:07:40,410
+is that this sentence allows both wide and narrow interpretation of CQIs. Assuming that the narrow interpretation, in this case, can only arise from quotation, then we should not be able to license the accusative subject, which clearly is  banned from matrix clauses, as seen in (18).
+
+45
+00:07:41,520 --> 00:07:47,310
+One solution to this can actually be found in Etxepare (2010)'s analysis of Spanish "que".
+
+46
+00:07:49,290 --> 00:07:57,750
+Etxepare (2010) analyzes quotative "que" as a Force phrase embedder. The Force Phrase requires that the embedded phrase be interpreted with intensional meaning,
+
+47
+00:07:58,440 --> 00:08:15,150
+where CQI items necessarily have narrow scope. This allows intensional interrogative complements under both anti-rogative predicates and extensional predicates. In (20a), the presence of an embedded ForceP, marked by "que", licenses a narrow scope interpretation the CQI "quién",
+
+48
+00:08:16,320 --> 00:08:24,840
+without it, the CQI must either undergo raising, as Spanish is not a wh-in-situ language, or it will be ungrammatical, as shown in (20b).
+
+49
+00:08:25,920 --> 00:08:38,790
+In (21a), the presence of an embedded ForceP forces the complement of resultative "dijo" to have an intensional interpretation, as opposed to the extensional interpretation of a simple CP embedded clause as in (21b).
+
+50
+00:08:39,600 --> 00:08:48,000
+This looks exactly like how quotation affects English "say", but importantly, the embedded clause in (21a) is not a quotation.
+
+51
+00:08:50,490 --> 00:09:06,270
+Thus I propose that Uyghur, like Spanish, allows for Force Phrase embedding. The mechanism works as follows: Matrix questions and intensional complements contain some item with an interpretable interrogative features, distinct from a [wh] feature,
+
+52
+00:09:07,320 --> 00:09:12,090
+following Suñer (1993). For content questions, this item is a CQI.
+
+53
+00:09:13,320 --> 00:09:18,300
+Interrogative Force-heads contain an uninterpretable interrogative feature, and will probe for a featured item.
+
+54
+00:09:19,980 --> 00:09:26,130
+LF movement of CQIs allows not only for a semantic interpretation, but also allows for this kind of feature checking.
+
+55
+00:09:27,360 --> 00:09:35,280
+The domain within which a Force-head can probe is ForceP, and so ForcePs block interrogative probes from c-commanding ForcePs.
+
+56
+00:09:35,790 --> 00:09:49,020
+And finally, as an addendum, C-heads which do not have a ForceP projection may license non-controlled null subjects, but C-heads with a ForceP projection require that the subjects of their TPs follow a strict PNS pattern.
+
+57
+00:09:51,570 --> 00:10:00,720
+The CQI probe works as shown here, where both matrix and embedded CQIs are potential targets for a matrix Force-head if the embedded clause is only a CP.
+
+58
+00:10:01,860 --> 00:10:07,830
+A targeted embedded CQI will raise at LF all the way to the top, and be interpreted with wide scope.
+
+59
+00:10:08,880 --> 00:10:18,270
+If the embedded clause is a ForceP, then the probe from the matrix Force-head is blocked, and the embedded CQI is not a potential target for the matrix Force-head.
+
+60
+00:10:18,900 --> 00:10:28,260
+Instead, the embedded CQI may be targeted by the embedded Force-head, and thus raise at LF only to the embedded Force Phrase, causing a narrow scope interpretation.
+
+61
+00:10:31,590 --> 00:10:39,960
+The licensing of non-controlled subjects works as shown here, where non-controlled subjects are licensed only in embedded CPs, not embedded ForcePs,
+
+62
+00:10:40,650 --> 00:10:49,470
+this ensures that sentences with narrow scope interpretation of CQIs necessarily have an overt third person subject, if the subject is non-controlled and non-generic.
+
+63
+00:10:50,760 --> 00:10:59,340
+I've saved a discussion for the exact mechanism that causes Forceless C-heads to license null subjects in the appendix of these slides, and I'd be happy to talk about them after the talk.
+
+64
+00:10:59,670 --> 00:11:04,080
+But for now we are going to move on to how this analysis accounts for the sentences we've seen so far.
+
+65
+00:11:07,260 --> 00:11:23,070
+We see sentence (16) again here, where an overt third person subject is present. The wide scope interpretation can be derived through the embedding of a CP, which allows the CQI to raise to the matrix clause at LF, and allows, but does not enforce, a null subject.
+
+66
+00:11:24,090 --> 00:11:34,410
+The narrow scope interpretation can either be a quotation, as previously analyzed, or as a ForceP; in either case CQI raising is blocked and the overt subject is mandatory.
+
+67
+00:11:35,940 --> 00:11:42,840
+In (17), the wide scope interpretation is derived the same as (16), but with the choice to have a null subject instead of an overt one.
+
+68
+00:11:43,890 --> 00:11:52,140
+For (17b), neither ForceP nor quotation are allowed, as they would require an overt subject, and thus a narrow scope interpretation of the CQI is banned.
+
+69
+00:11:56,130 --> 00:12:08,940
+For (19), the wide scope interpretation is still fine: the embedded CP allows both LF raising of the CQI as well as subject-to-SpecCP raising, resulting in the accusative subject we see.
+
+70
+00:12:10,020 --> 00:12:26,820
+The narrow scope interpretation can only be derived with a ForceP, in which case the CQI is forced to have narrow scope interpretation, but the subject, still overt, can undergo movement into SpecCP and be realized as accusative. This is impossible in a matrix clause.
+
+71
+00:12:29,970 --> 00:12:36,360
+Finally, one more construction that appears in Uyghur is one in which a nominative and accusative subject seemingly both occur.
+
+72
+00:12:36,960 --> 00:12:46,620
+Major (2021) argues that this construction is derived through prolepsis rather than raising. The proleptic DP is generated in the matrix clause with accusative case,
+
+73
+00:12:47,220 --> 00:12:57,300
+while an embedded resumptive pronoun stays in the embedded SpecTP position and receives nominative case. This construction only allows a narrow scope interpretation of CQIs.
+
+74
+00:12:58,290 --> 00:13:05,940
+Etxepare (2010) argues that embedded ForcePs form small clauses with an overt or covert DP, which allows for C-selection by the predicate.
+
+75
+00:13:07,170 --> 00:13:21,960
+I propose that this structure is the same for Uyghur, and that the DP position may be filled with an overt proleptic DP, thus ensuring that this construction only occurs with ForcePs, enforcing a narrow scope interpretation in (22).
+
+76
+00:13:24,750 --> 00:13:33,030
+I hope that you come away from this talk with these ideas: One is that Uyghur is a PNS language, albeit with a strange twist, and another is that
+
+77
+00:13:34,020 --> 00:13:37,500
+Uyghur allows Force Phrase embedding, much like Spanish.
+
+78
+00:13:38,430 --> 00:13:48,270
+Additionally, I would like to say that we need to be careful with how we use our indexical shift diagnostics, as there are a number of ways that opacity can occur without the need for quotation.
+
+79
+00:13:49,020 --> 00:14:00,990
+This brings me to my last point, which is that there may be a need to analyze quotational opacity as a confluence of opacities that occur in the left periphery, at various syntactic levels, rather than a single end-all-be-all.
+
+80
+00:14:01,890 --> 00:14:07,890
+Just in the same way that indexical shift was originally thought to be a phenomenon relegated to and inseparable from quotation,
+
+81
+00:14:08,190 --> 00:14:23,760
+it may be that other "quotational" effects, such as opacity of CQIs discussed here, actually arise from specific semantico-syntactic operators. Such a suggestion implies a potentially richer typology of the left periphery, and opens up a deeper discussion of what quotation actually is.
+
+82
+00:14:24,960 --> 00:14:25,980
+Thank you for listening.
+
