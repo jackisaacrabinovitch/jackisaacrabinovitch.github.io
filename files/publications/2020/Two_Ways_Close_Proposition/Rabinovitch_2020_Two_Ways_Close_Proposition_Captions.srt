@@ -1,0 +1,1205 @@
+1
+00:00:00,190 --> 00:00:05,430
+Hello, my name is Jack Rabinovitch, and this
+is my poster presentation: "Two Ways to Existentially
+
+2
+00:00:05,430 --> 00:00:09,980
+Close a Proposition".
+
+3
+00:00:09,980 --> 00:00:14,119
+Linguists often distinguish root clauses from
+embedded clauses, where root clauses may exist
+
+4
+00:00:14,119 --> 00:00:18,220
+independent of other clauses in a sentence,
+and embedded clauses are only grammatical
+
+5
+00:00:18,220 --> 00:00:19,960
+in embedded contexts.
+
+6
+00:00:19,960 --> 00:00:24,210
+The differences between these two clauses
+is not only in their distribution but also
+
+7
+00:00:24,210 --> 00:00:26,290
+in the phenomena they exhibit.
+
+8
+00:00:26,290 --> 00:00:30,720
+While root clauses allow discourse markers
+and fronting of certain arguments, embedded
+
+9
+00:00:30,720 --> 00:00:34,679
+clauses often do not, and are typically marked
+with a complementizer.
+
+10
+00:00:34,679 --> 00:00:38,530
+However, this distinction is fuzzy, considering
+that many languages embed clauses with root
+
+11
+00:00:38,530 --> 00:00:43,230
+phenomena - so called embedded root phenomena
+- or have independent clauses with embedded
+
+12
+00:00:43,230 --> 00:00:45,170
+phenomena - so called insubordination.
+
+13
+00:00:45,170 --> 00:00:50,690
+While embedded clauses are often thought of
+as representing propositions, full sentences
+
+14
+00:00:50,690 --> 00:00:51,690
+are speech acts.
+
+15
+00:00:51,690 --> 00:00:56,309
+In this presentation, I argue that root phenomena
+is in part caused by the presence of speech
+
+16
+00:00:56,340 --> 00:01:01,040
+act semantics, accompanied by an additional
+syntactic domain above the CP.
+
+17
+00:01:01,040 --> 00:01:05,700
+In Ibero-Romance languages, speech act embedding
+results in both embedded root phenomena and
+
+18
+00:01:05,700 --> 00:01:11,120
+insubordination.
+
+19
+00:01:11,130 --> 00:01:15,410
+Since Searle (1969), it has generally been
+thought that propositions and speech acts
+
+20
+00:01:15,410 --> 00:01:17,340
+are distinct ontologically.
+
+21
+00:01:17,340 --> 00:01:21,320
+Propositions are functions from worlds to
+truth values, while speech acts are 'turns'
+
+22
+00:01:21,320 --> 00:01:23,390
+in a communicative game.
+
+23
+00:01:23,390 --> 00:01:27,200
+Speech acts consist of a sentence radical,
+typically a proposition, and an illocutionary
+
+24
+00:01:27,200 --> 00:01:30,880
+force, which type shifts the sentence radical
+into a speech act.
+
+25
+00:01:30,880 --> 00:01:35,820
+Syntactically this is reflected in Speas and
+Tenny (2003)'s split of the left periphery
+
+26
+00:01:35,830 --> 00:01:39,830
+into a lower propositional domain and a higher
+speech act domain.
+
+27
+00:01:39,830 --> 00:01:44,560
+The speech act domain hosts illocutionary
+material such as discourse particles and vocatives,
+
+28
+00:01:44,580 --> 00:01:50,500
+which are thus restricted to the far left
+- or right - of a sentence, as in (5).
+
+29
+00:01:53,600 --> 00:01:58,920
+Material in the speech act domain seems to
+not be truth conditional, such as evidentials,
+
+30
+00:01:58,930 --> 00:02:00,450
+which often fail dissent tests.
+
+31
+00:02:00,450 --> 00:02:06,090
+In (6), while a respondent can directly challenge
+whether or not Inés visited her sister, they
+
+32
+00:02:06,090 --> 00:02:10,410
+cannot challenge the evidential force given
+by the reportative particle that the speaker
+
+33
+00:02:10,410 --> 00:02:12,220
+was told this.
+
+34
+00:02:12,220 --> 00:02:16,720
+Faller (2002) argues that this is because evidentials
+effect sincerity conditions rather than truth
+
+35
+00:02:16,720 --> 00:02:21,130
+conditions: while a proposition is true when
+it accurately represents the state of affairs
+
+36
+00:02:21,130 --> 00:02:25,740
+in the world of evaluation, a speech act is
+sincere when it accurately represents the
+
+37
+00:02:25,740 --> 00:02:29,980
+state of mind of the speaker in the given
+context.
+
+38
+00:02:31,340 --> 00:02:36,959
+Following Corr (2016) I use Utterance Phrase
+or UP to refer to the syntactic projection
+
+39
+00:02:36,959 --> 00:02:41,630
+of the speech act domain, while I reserve
+CP for the propositional domain.
+
+40
+00:02:41,630 --> 00:02:47,300
+Thus while CP material is truth conditional,
+UP material is sincerity conditional, with
+
+41
+00:02:47,300 --> 00:02:51,190
+the application of illocutionary force in
+the ForceP acting as an interface between
+
+42
+00:02:51,190 --> 00:02:52,700
+the two.
+
+43
+00:02:52,700 --> 00:02:56,540
+Root phenomena such as the placement of discourse
+markers are thus only possible when sincerity
+
+44
+00:02:56,540 --> 00:03:02,720
+conditional speech act semantics, accompanied
+by the UP syntax, are present.
+
+45
+00:03:05,300 --> 00:03:10,280
+This way of splitting the CP and UP domains
+ontologically closely mirrors Ramchand and
+
+46
+00:03:10,280 --> 00:03:15,460
+Svenonius (2014)'s analysis of the differences between
+the vP, TP, and CP domains.
+
+47
+00:03:15,470 --> 00:03:20,580
+For them, the vP, TP, and CP are sortal domains,
+meaning that they are distinguished from one
+
+48
+00:03:20,580 --> 00:03:25,450
+another by the ontological sort which is represented
+and modified in each domain.
+
+49
+00:03:25,450 --> 00:03:30,590
+Events are represented and modified in the
+vP, situations in the TP, and propositions
+
+50
+00:03:30,590 --> 00:03:32,099
+in the CP.
+
+51
+00:03:32,099 --> 00:03:36,690
+The domains have a strict syntactic hierarchy
+because the sorts have a strict cognitive
+
+52
+00:03:36,690 --> 00:03:41,060
+hierarchy, where each sort is an elaboration
+of the sort below it.
+
+53
+00:03:41,060 --> 00:03:45,820
+Domains are separated by interfacing heads
+which introduce the higher sort argument,
+
+54
+00:03:45,830 --> 00:03:49,760
+relate the higher sort to the lower sort,
+and existentially close the lower sort.
+
+55
+00:03:49,760 --> 00:03:54,910
+This can be seen in (10), where the vP is
+an event-taking predicate whose event 'e'
+
+56
+00:03:54,910 --> 00:03:59,860
+argument is related to a situation 's' via
+an aspectual relation before being closed
+
+57
+00:03:59,860 --> 00:04:00,940
+off.
+
+58
+00:04:00,960 --> 00:04:05,300
+The resulting Aspect Phrase has an open situation
+argument which can then undergo predicate
+
+59
+00:04:05,300 --> 00:04:10,800
+modification with the situation-taking predicate
+of a T-head, becoming a situational TP.
+
+60
+00:04:11,000 --> 00:04:16,970
+We can extend this theory into the UP domain,
+and introduce speech acts as a sort, cognitively
+
+61
+00:04:16,970 --> 00:04:22,380
+'above' propositions, with a force relation
+as an interface relating the lower propositional
+
+62
+00:04:22,380 --> 00:04:26,100
+sort 'p' to the higher act sort 'a'.
+
+63
+00:04:26,100 --> 00:04:30,870
+Thus we can mirror the structure in (10) as
+in (11), where the CP represents a proposition-taking
+
+64
+00:04:30,870 --> 00:04:35,020
+predicate which combines with Force-head to
+become an act-taking predicate, which can
+
+65
+00:04:35,020 --> 00:04:38,590
+then combine with discourse markers in U-head
+positions.
+
+66
+00:04:38,590 --> 00:04:44,070
+The entire sortal 'spine' of a clause can
+thus be seen in (12) with four sorts and three
+
+67
+00:04:44,070 --> 00:04:46,090
+interfacing heads between them.
+
+68
+00:04:46,090 --> 00:04:51,070
+This allows us to compositionally construct
+the sincerity conditions given by a speech
+
+69
+00:04:51,070 --> 00:04:53,090
+act.
+
+70
+00:04:53,090 --> 00:04:58,930
+In (13), the proposition 'it is raining' (in
+green), combines with an assertive force (in
+
+71
+00:04:58,930 --> 00:05:03,030
+purple), which for our purposes creates a
+sincerity condition that the embedded proposition
+
+72
+00:05:03,030 --> 00:05:04,900
+is believed by the speaker.
+
+73
+00:05:04,900 --> 00:05:11,100
+The resulting ForceP undergoes predicate modification
+with a discourse marker 'alas' (in yellow),
+
+74
+00:05:11,100 --> 00:05:15,860
+which restricts the sincerity conditions such
+that it is sincere if the speech act expresses
+
+75
+00:05:15,860 --> 00:05:17,040
+sadness.
+
+76
+00:05:17,040 --> 00:05:21,820
+Thus the truth conditions of 'alas, it is
+raining' is that it is raining, while the
+
+77
+00:05:21,820 --> 00:05:25,570
+sincerity conditions are that the speaker
+believes it is raining, as given by the assertive
+
+78
+00:05:25,570 --> 00:05:32,060
+force relation, and that the speaker is sad
+about it, as given by the entry of 'alas'.
+
+79
+00:05:35,400 --> 00:05:40,020
+Under a Kratzerian framework, attitude verbs
+are unable to directly embed propositions,
+
+80
+00:05:40,020 --> 00:05:44,320
+and instead take entity-type arguments with
+propositional content.
+
+81
+00:05:44,320 --> 00:05:49,080
+Complementizers (as denoted in light blue),
+function to type shift propositions into entities
+
+82
+00:05:49,080 --> 00:05:52,290
+via a compatibility relation as in (14).
+
+83
+00:05:52,290 --> 00:05:59,340
+The relation 'small-caps Comp' is true of
+a proposition 'p' and an entity 'x' if 'x'
+
+84
+00:05:59,340 --> 00:06:04,780
+refers to a proposition 'p-sub-x' with the
+same truth conditions as 'p'.
+
+85
+00:06:04,780 --> 00:06:09,080
+Because propositions of the same truth conditions
+can be said to be the same proposition, this
+
+86
+00:06:09,080 --> 00:06:14,740
+effectively means that 'x' refers to the proposition
+'p', or that the entity 'x' has the propositional
+
+87
+00:06:14,740 --> 00:06:16,420
+content of 'p'.
+
+88
+00:06:16,430 --> 00:06:21,140
+For Kratzer, complementizers are two place
+predicates, as in (14c).
+
+89
+00:06:21,140 --> 00:06:25,550
+For a Ramchand and Svenonius framework, complementizers
+can be seen as a sort of interfacing head
+
+90
+00:06:25,550 --> 00:06:27,960
+between propositions and entities.
+
+91
+00:06:27,960 --> 00:06:32,720
+In this way, a complementizer introduces an
+entity argument, relates the entity to a proposition,
+
+92
+00:06:32,720 --> 00:06:36,580
+and then existentially closes the propositional
+argument, as in (14d).
+
+93
+00:06:36,580 --> 00:06:41,350
+Either way, a complementizer headed CP will
+be an entity-taking predicate, which can then
+
+94
+00:06:41,350 --> 00:06:46,560
+restrict the entity argument of a verb as
+in (15), where 'know' takes an entity argument,
+
+95
+00:06:46,560 --> 00:06:50,990
+which is restricted to having the propositional
+content of 'it is raining' by the embedded
+
+96
+00:06:50,990 --> 00:06:52,960
+CP.
+
+97
+00:06:52,980 --> 00:06:57,560
+The application of complementizers and illocutionary
+force are two ways to existentially close
+
+98
+00:06:57,560 --> 00:07:02,560
+propositions, each relating them to a different
+sort; entities for complementizers, and speech
+
+99
+00:07:02,560 --> 00:07:04,280
+acts for illocutionary force.
+
+100
+00:07:04,280 --> 00:07:09,040
+Because they both close off the proposition,
+they are not stackable within the same clause.
+
+101
+00:07:09,040 --> 00:07:13,680
+The root phenomena that occurs due to the
+presence of a UP domain thus cannot occur
+
+102
+00:07:13,680 --> 00:07:17,790
+under a complementizer, restricting root phenomena
+to root clauses.
+
+103
+00:07:17,790 --> 00:07:22,400
+Likewise, assuming that all independent clauses
+are of a speech act type, root clauses cannot
+
+104
+00:07:22,420 --> 00:07:25,580
+be headed by a complementizer or exhibit other
+embedded phenomena.
+
+105
+00:07:26,680 --> 00:07:31,800
+However, as we can see in (16), some languages,
+such as Spanish, do embed speech acts.
+
+106
+00:07:31,810 --> 00:07:36,880
+(16a) embeds a proposition, and thus the clause
+'who was coming' is evaluated with respect
+
+107
+00:07:36,880 --> 00:07:42,699
+to the world: Juan is reported as saying the
+list of people such that they were coming.
+
+108
+00:07:42,699 --> 00:07:48,840
+(16b) which has the inserted 'que', however,
+reports Juan saying not the list of people,
+
+109
+00:07:48,840 --> 00:07:52,280
+but a question, a request for knowledge of
+who was coming.
+
+110
+00:07:52,280 --> 00:07:57,070
+The embedded speech phrase here is thus a speech
+act with illocutionary force, rather than
+
+111
+00:07:57,070 --> 00:08:01,200
+a proposition available for truth conditional
+evaluation.
+
+112
+00:08:01,200 --> 00:08:05,919
+Similar to the Kratzerian complementizer,
+we can understand 'que' in reportative contexts
+
+113
+00:08:05,919 --> 00:08:08,990
+to be a relational head between speech acts
+and entities.
+
+114
+00:08:08,990 --> 00:08:13,009
+Rather than a compatibility relation, I propose
+the existence of the analagous suitability
+
+115
+00:08:13,009 --> 00:08:14,009
+relation.
+
+116
+00:08:14,009 --> 00:08:20,380
+In (17b), 'small caps Suit' is true of a speech
+act 'a' and an entity 'x' if the 'x' refers
+
+117
+00:08:20,380 --> 00:08:25,860
+to a speech act 'a-sub-x' such that 'a-sub-x'
+and 'a' have the same sincerity conditions.
+
+118
+00:08:25,860 --> 00:08:31,319
+Thus a 'que' embedded speech act refers to
+the sincerity conditions of some specific
+
+119
+00:08:31,319 --> 00:08:35,010
+speech act which the speaker is referencing.
+
+120
+00:08:35,010 --> 00:08:39,060
+The referent need not be the actual embedded
+utterance, it may be a speech act uttered
+
+121
+00:08:39,060 --> 00:08:44,080
+in the past or an imagined speech act, spoken
+by the current speaker, or someone else, and
+
+122
+00:08:44,080 --> 00:08:49,060
+it need not be verbatim, as long as the sincerity
+conditions of the embedded speech act 'a'
+
+123
+00:08:49,060 --> 00:08:53,029
+and the referenced speech act 'a-sub-x' are
+the same.
+
+124
+00:08:53,029 --> 00:08:59,320
+Thus, 'que' takes a speech act-taking predicate
+UP, opens up an entity argument, relates the
+
+125
+00:08:59,320 --> 00:09:05,620
+entity and speech act via a suitability relation, and existentially
+closes the speech act argument, resulting
+
+126
+00:09:05,620 --> 00:09:10,120
+in a entity-taking predicate available for
+selection by a verb just like the complementizer
+
+127
+00:09:10,120 --> 00:09:13,340
+headed CP in (15).
+
+128
+00:09:15,160 --> 00:09:20,200
+Importantly, because the suitability relation
+is evaluated as true or false, it is truth
+
+129
+00:09:20,200 --> 00:09:21,620
+conditional.
+
+130
+00:09:21,630 --> 00:09:25,500
+Thus, one can derive truth conditions from
+an embedded speech act, not from its force
+
+131
+00:09:25,500 --> 00:09:30,230
+- evidential or otherwise - directly, but
+in how its force represents the sincerity
+
+132
+00:09:30,230 --> 00:09:33,950
+conditions of the speech act which the entity
+argument refers to.
+
+133
+00:09:33,950 --> 00:09:39,029
+For (18), the sincerity conditions of the
+embedded commanding speech act are not evaluated
+
+134
+00:09:39,029 --> 00:09:43,480
+with respect to the utterance context, but
+rather serve as a representation of the sincerity
+
+135
+00:09:43,480 --> 00:09:46,700
+conditions of the speech act which Juan said.
+
+136
+00:09:46,700 --> 00:09:51,890
+Thus the sentence is true if Juan said some
+'x' with the sincerity conditions 'a' of a
+
+137
+00:09:51,890 --> 00:09:55,570
+command telling someone to do their task.
+
+138
+00:09:55,570 --> 00:10:00,770
+Interestingly, these effects also help to
+explain insubordination.
+
+139
+00:10:00,770 --> 00:10:06,649
+In Spanish, insubordinative phrases come in
+the form of sentences which begin with 'que'.
+
+140
+00:10:06,649 --> 00:10:11,870
+These sentences carry a reportative flavor,
+such as (19a), where the speaker asserts news
+
+141
+00:10:11,870 --> 00:10:16,100
+about their favorite sports team with the
+evidential flavor that they know it because
+
+142
+00:10:16,100 --> 00:10:18,160
+they were told this information.
+
+143
+00:10:18,160 --> 00:10:23,200
+Etxepare (2010) argues that in these cases,
+'que' headed phrases represent an entity which
+
+144
+00:10:23,200 --> 00:10:25,170
+undergoes silent predication.
+
+145
+00:10:25,170 --> 00:10:30,470
+Thus, insubordination in Spanish is effectively
+the same as its equivalent embedded root phenomena,
+
+146
+00:10:30,470 --> 00:10:33,360
+with a speech act related to an entity via
+'que'.
+
+147
+00:10:33,360 --> 00:10:38,350
+In embedded root phenomena, this entity is
+predicated overtly, in insubordination, it
+
+148
+00:10:38,350 --> 00:10:41,200
+is predicated covertly.
+
+149
+00:10:41,200 --> 00:10:47,070
+Like the embedded command in (18), the evidential
+force of an insubordinative clause is embedded
+
+150
+00:10:47,070 --> 00:10:51,470
+under a suitability relation, meaning that
+it's sincerity conditions are not evaluated
+
+151
+00:10:51,470 --> 00:10:56,410
+in the utterance context, and that it is truth
+conditional, and thus able to be directly
+
+152
+00:10:56,410 --> 00:11:01,070
+challenged as in (19b), where the respondent
+denies the evidential force that the speaker
+
+153
+00:11:01,070 --> 00:11:02,470
+was told the information.
+
+154
+00:11:02,470 --> 00:11:09,070
+This is unlike Quechua example in (6), as shown below, where the evidentiality is part of the matrix speech
+
+155
+00:11:09,070 --> 00:11:13,649
+act, not embedded under a suitability relation,
+and thus not available for dissent.
+
+156
+00:11:13,649 --> 00:11:18,680
+This can be seen in (20) where the Reportative
+feature in Quechua exists outside the domain
+
+157
+00:11:18,680 --> 00:11:22,120
+available for truth conditional evaluation.
+
+158
+00:11:23,760 --> 00:11:28,420
+Ibero-Romance languages, however, also have
+instances of insubordination which do not
+
+159
+00:11:28,420 --> 00:11:34,060
+have embedded equivalents, such as exclamations
+which are unable to embed under verbs, but
+
+160
+00:11:34,060 --> 00:11:38,870
+may follow discourse markers at the beginning
+of a clause, such as in (21).
+
+161
+00:11:38,870 --> 00:11:44,420
+Though this can be explained by silent predication,
+Searle's analysis of exclamations in English
+
+162
+00:11:44,420 --> 00:11:46,880
+may give us an alternative.
+
+163
+00:11:46,880 --> 00:11:51,360
+Searle argues that the sentence radical of
+an exclamation is not propositional, but is
+
+164
+00:11:51,360 --> 00:11:55,800
+instead an entity, which has some relation
+to the speech act itself.
+
+165
+00:11:55,800 --> 00:12:00,460
+For example, in (22), 'hurrah' is a speech
+act predicate which additionally takes an
+
+166
+00:12:00,460 --> 00:12:02,050
+entity argument.
+
+167
+00:12:02,050 --> 00:12:07,160
+The relationship between speech act and entity
+is not mediated by a force relation, and thus
+
+168
+00:12:07,160 --> 00:12:11,399
+does not relate a proposition to the speech
+act.
+
+169
+00:12:11,399 --> 00:12:14,350
+Thus these speech acts do not have any truth
+conditions.
+
+170
+00:12:14,350 --> 00:12:18,500
+As a result, exclamations cannot undergo dissent
+of any kind.
+
+171
+00:12:19,220 --> 00:12:23,820
+Because 'que' phrases represent entities,
+a discourse marker like 'ai' in Galician may
+
+172
+00:12:23,820 --> 00:12:29,340
+act similarly to 'hurrah', and take the embedded
+UP not as a speech act predicate,
+
+173
+00:12:29,340 --> 00:12:33,220
+but rather as an entity predicate, closed
+by 'que'.
+
+174
+00:12:33,220 --> 00:12:38,120
+Thus 'ai' denotes exasperation at an entity,
+and while this entity may refer to an individual
+
+175
+00:12:38,120 --> 00:12:43,970
+like you or me, the entity in (21) refers
+to a speech act.
+
+176
+00:12:43,970 --> 00:12:48,880
+Thus (21) does not assert any proposition,
+but rather expresses exasperation at a given
+
+177
+00:12:48,890 --> 00:12:53,850
+speech act, or as I take it, the implied prospect
+of uttering said speech act.
+
+178
+00:12:53,850 --> 00:12:58,260
+This speech act has the sincerity conditions
+that the speaker believes that the addressee
+
+179
+00:12:58,260 --> 00:13:00,270
+thinks the speaker 'has all day'.
+
+180
+00:13:00,270 --> 00:13:06,110
+Thus the speaker presents the embedded speech
+act as something they may be sincere in saying
+
+181
+00:13:06,110 --> 00:13:11,010
+while expressing their exasperation that it
+may be warranted in being said.
+
+182
+00:13:11,010 --> 00:13:16,149
+In this case, the speaker is annoyed that
+the addressee may think the speaker 'has all
+
+183
+00:13:16,149 --> 00:13:21,930
+day', and without directly committing to saying
+so, the speaker expresseses that they feel
+
+184
+00:13:21,930 --> 00:13:26,339
+justified in asserting it, and quite annoyed
+by that fact.
+
+185
+00:13:26,339 --> 00:13:31,029
+The translation - and source text punctuation
+- is appropriately that of a rhetorical question,
+
+186
+00:13:31,029 --> 00:13:35,080
+which also implies that the speaker is justified
+in asserting something without explicitly
+
+187
+00:13:35,080 --> 00:13:36,520
+asserting it.
+
+188
+00:13:36,980 --> 00:13:41,960
+Switching to another language family, Hooper
+and Thompson (1973) introduced an analysis
+
+189
+00:13:41,970 --> 00:13:46,690
+of Germanic embedded root phenomena, whereby
+embedded V2 clauses are asserted as part of
+
+190
+00:13:46,690 --> 00:13:49,160
+the illocutionary force of a sentence.
+
+191
+00:13:49,160 --> 00:13:54,089
+For instance (24) does not only assert one's
+commitment to the belief of Max snoring, but
+
+192
+00:13:54,089 --> 00:13:57,149
+also asserts Max's snoring itself.
+
+193
+00:13:57,149 --> 00:14:01,120
+This gives it a stronger sense of commitment
+than an equivalent sentence with verb final
+
+194
+00:14:01,120 --> 00:14:02,120
+word order.
+
+195
+00:14:02,120 --> 00:14:06,620
+The inclusion of assertion as part of the
+embedded clause would make embedded verb final
+
+196
+00:14:06,620 --> 00:14:10,970
+clauses propositional, and embedded V2 clauses
+speech acts.
+
+197
+00:14:10,970 --> 00:14:15,899
+However, the Hooper and Thompson analysis
+is distinct from my analysis in that Hooper
+
+198
+00:14:15,899 --> 00:14:20,310
+and Thompson argue that embedded force is
+asserted as part of the utterance force, while
+
+199
+00:14:20,310 --> 00:14:24,730
+the suitability relation I propose does not
+assert the embedded force as part of the utterance
+
+200
+00:14:24,730 --> 00:14:31,220
+force, but rather references some other (past
+or imagined) speech act with that force.
+
+201
+00:14:31,220 --> 00:14:37,380
+Again, the Spanish embedded commands and question
+we have so far seen are not evaluated as commands
+
+202
+00:14:37,380 --> 00:14:41,760
+or questions in the utterance context, but
+represent the sincerity conditions of some
+
+203
+00:14:41,760 --> 00:14:44,040
+referenced speech act.
+
+204
+00:14:44,040 --> 00:14:50,240
+Furthermore, recent work such as Wiklund et
+al (2009) and Djärv (2019) has pushed
+
+205
+00:14:50,240 --> 00:14:54,880
+back on the Hooper and Thompson analysis,
+and argue that embedded V2 expresses that
+
+206
+00:14:54,880 --> 00:14:58,640
+information is discourse new, rather than
+asserting the embedded proposition.
+
+207
+00:14:58,640 --> 00:15:04,160
+There are quite a few differences between
+embedded root phenomena in Ibero-Romance and
+
+208
+00:15:04,160 --> 00:15:08,060
+Germanic languages that hint that Germanic
+embedded root phenomena is constrained to
+
+209
+00:15:08,060 --> 00:15:09,510
+the propositional domain.
+
+210
+00:15:09,510 --> 00:15:15,240
+The first is that Germanic embedded root phenomena
+can occur under verbs like 'believe' which
+
+211
+00:15:15,240 --> 00:15:18,600
+are generally assumed to not embed speech
+act content.
+
+212
+00:15:18,600 --> 00:15:24,670
+This is the case in Spanish, which bans embedded
+root phenomena under 'believe' and 'know'.
+
+213
+00:15:24,670 --> 00:15:29,990
+Second, negation can affect the grammticality
+of embedded root constructions in Germanic
+
+214
+00:15:29,990 --> 00:15:34,880
+languages, which hints that the semantic selection
+is not reliant on a difference between two
+
+215
+00:15:34,880 --> 00:15:39,100
+different sorts, but rather a difference in
+the availability for discourse new information
+
+216
+00:15:39,100 --> 00:15:41,960
+to exist in affirmative and negative contexts.
+
+217
+00:15:42,500 --> 00:15:46,980
+Third, the suitability relation forces an
+embedded speech act to represent the sincerity
+
+218
+00:15:46,980 --> 00:15:52,140
+conditions of a referenced speech act, which
+has a specific instance of being spoken.
+
+219
+00:15:52,140 --> 00:15:57,089
+It seems that, for Germanic languages, the
+embedded V2 clause does not need to reference
+
+220
+00:15:57,089 --> 00:16:03,019
+a specific instance of speech, thought, or
+belief but can instead be more generic, referencing
+
+221
+00:16:03,019 --> 00:16:06,649
+general thoughts or beliefs that an individual
+holds.
+
+222
+00:16:06,649 --> 00:16:11,760
+Altogether, while the addition of a UP seems
+promising for embedded root phenomena in Ibero-Romance
+
+223
+00:16:11,760 --> 00:16:16,130
+languages, it does not hold up when applied
+to Germanic languages.
+
+224
+00:16:16,130 --> 00:16:20,430
+Corr argues that Ibero-Romance languages differ
+in what kind of 'que' clause embedding they
+
+225
+00:16:20,430 --> 00:16:24,720
+allow due to differences in feature bundling
+or splitting.
+
+226
+00:16:24,720 --> 00:16:30,300
+For example, Portuguese allows 'que' exclamation
+constructions but not reportative constructions.
+
+227
+00:16:30,300 --> 00:16:34,600
+Corr argues that this is because Portuguese
+bundles its declarative and evidential features,
+
+228
+00:16:34,600 --> 00:16:39,560
+disallowing 'que' to attach at Evidential-head
+without blocking illocutionary force from
+
+229
+00:16:39,560 --> 00:16:42,140
+the Force-head, as they are both on the same head.
+
+230
+00:16:42,540 --> 00:16:47,420
+Galician and Spanish split these features
+across different heads, allowing question
+
+231
+00:16:47,420 --> 00:16:52,230
+and commanding ForcePs to embed under an evidential
+'que'.
+
+232
+00:16:52,230 --> 00:16:56,899
+If this is the general cause of embedded root
+phenomena across the UP, then it may also
+
+233
+00:16:56,899 --> 00:16:59,889
+be the case for embedded root phenomena in
+the CP.
+
+234
+00:16:59,889 --> 00:17:04,339
+Thus we may be able to unite Ibero-Romance
+and Germanic embedded root phenomena as both
+
+235
+00:17:04,340 --> 00:17:08,980
+caused by feature splitting, allowing more
+heads for lexical generation and movement,
+
+236
+00:17:08,980 --> 00:17:13,280
+with differences between languages explained
+by the differences in splitting across both
+
+237
+00:17:13,280 --> 00:17:16,080
+the UP and CP domains.
+
+238
+00:17:17,560 --> 00:17:22,640
+Today, I have presented an analysis of speech
+acts a sort belonging to a sortal domain in
+
+239
+00:17:22,640 --> 00:17:25,580
+the same vein as Ramchand and Svenonius.
+
+240
+00:17:25,580 --> 00:17:29,000
+This domain is represented by the syntactic
+projection of the Utterance Phrase, which
+
+241
+00:17:29,000 --> 00:17:31,669
+is distinguished from the CP by the introduction
+of illocutionary force.
+
+242
+00:17:31,669 --> 00:17:35,749
+Complementizers and illocutionary force are
+two ways to existentially close off propositions,
+
+243
+00:17:35,749 --> 00:17:39,970
+causing complementizer based embedding to
+exhibit 'embedded' phenomena, and clauses
+
+244
+00:17:39,970 --> 00:17:45,379
+with illocutionary force, most commonly seen
+in matrix clauses, to exhibit 'root' phenomena.
+
+245
+00:17:45,379 --> 00:17:51,039
+However, UP embedding is possible, and can
+result in both embedded root phenomena and
+
+246
+00:17:51,039 --> 00:17:54,389
+insubordination, as is seen in Ibero-Romance
+languages.
+
+247
+00:17:54,389 --> 00:18:01,190
+Finally, I discussed Germanic embedded V2,
+providing evidence that this form of embedded
+
+248
+00:18:01,190 --> 00:18:04,850
+root phenomena is constrained to the CP domain.
+
+249
+00:18:04,850 --> 00:18:09,950
+Finally I suggest that the feature scattering
+effects in the UP of Ibero-Romance may have
+
+250
+00:18:09,950 --> 00:18:14,049
+a CP analogue responsible for embedded verb
+second in Germanic languages.
+
+251
+00:18:14,049 --> 00:18:16,229
+Thank you very much for listening.
+
