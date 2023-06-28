@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="/js/shell.js" defer></script> 
+    <script src="/js/queries.js" ></script> 
+</head>
+<body>
+	<div>If you can see this, you need to enable javascript.</div>
+	<div id="data">{
+		"title":"Collaborators",
+		"hero":"Zakim_Bridge_from_Charlestown_Bells",
+		"herotext":"Collaborators"
+	}</div>
+	<div id="content">
+        <script src="/js/people.js"></script>
+		<link rel="stylesheet" href="/css/people.css">
+		<script>
+            fetch('/files/data/people.json')
+                .then(res => res.json())
+                .then( people => {
+                    let query = qs()
+                    if (query.person === undefined){
+                        document.getElementById("people-content").innerHTML = displayPeople(people.filter((x)=>{return x.id !== "rabinovitch-jack"}))
+                    } else if (query.person === "rabinovitch-jack"){
+                        location.replace("/pages/")
+                    } else {
+                        let person = people.find((x)=>{return x.id === query.person})
+                        document.getElementById("people-content").innerHTML = displayPeople([person])
+                        document.getElementById("hero-text").innerHTML = `Collaborator - ${person.names[0].given_name} ${person.names[0].surname}`
+                        document.title = `Collaborator - ${person.names[0].given_name} ${person.names[0].surname}`
+                    }
+                })
+                .catch(err => console.error(err))
+		</script>
+        <div id="people-content"></div>
+	</div>
+</body>
+</html>
+

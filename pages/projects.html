@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="/js/shell.js" defer></script> 
+	<script src="/js/queries.js" ></script> 
+</head>
+<body>
+	<div>If you can see this, you need to enable javascript.</div>
+	<div id="data">{
+		"title":"Projects",
+		"hero":"Sanders_Theatre_and_William_James_Hall_from_Peabody_Terrace",
+		"herotext":"Projects"
+	}</div>
+	<div id="content">
+		<script src="/js/publications.js"></script>
+		<link rel="stylesheet" href="/css/modals.css">
+		<link rel="stylesheet" href="/css/projects.css">
+		<div id="project-comment"></div>
+		<div id="publications-container"></div>
+		<div class="projects-section">
+			<ul id="project-container" class="projects-grid">
+			</ul>
+		</div>
+		<script>
+			var query = qs()
+			if (query.project !== undefined){
+				fetch('/files/data/personal.json')
+                .then(res => res.json())
+                .then(res => addOrganizedModals(res, (x)=>{
+                        if (x.projects === undefined){return false}
+                        return x.projects.includes(query.project)
+                }, "publications-container"))
+                .catch(err => console.error(err));
+
+				fetch('/files/data/personal.json')
+                .then(res => res.json())
+				.then(res => {
+					var the_project = res.project_data.find((x)=>{return x.id === query.project})
+					document.getElementById("hero-image").style = `background-image: var(--hero-gradient),url('/images/heroes/${the_project.hero}.jpeg');`
+					document.getElementById("hero-text").innerText = the_project.herotext
+					document.title = `${the_project.herotext} | Projects`
+
+					document.getElementById("project-comment").innerHTML = `<p>${the_project.comment}</p>`
+					document.getElementById("project-comment").innerHTML += `<p>Click <a href="/pages/projects.html">here for a full list of projects</a>, or find a full list of my <a href="/publications/">publications and presentations here</a>.</p>`
+				})
+				.catch(err => console.error(err));
+			} else {
+				fetch('/files/data/personal.json')
+                .then(res => res.json())
+				.then(res => {
+					res.project_data.forEach(project => {
+						document.getElementById("project-container").innerHTML += `
+		<li>
+			<a href="/pages/projects.html?project=${project.id}">
+				<div class="projects-box" style="background-image: var(--hero-gradient),url('/images/heroes/${project.hero}.jpeg');">
+					<h1>
+						${project.herotext}
+					</h1>
+				</div>
+			</a>
+		</li>
+						`
+					});
+				})
+				.catch(err => console.error(err));
+			}
+		</script>
+	</div>
+</body>
+</html>

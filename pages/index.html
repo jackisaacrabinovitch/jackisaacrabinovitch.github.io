@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="/js/shell.js" defer></script> 
+	<script src="/js/queries.js" ></script> 
+</head>
+<body>
+	<div>If you can see this, you need to enable javascript.</div>
+	<div id="data">{
+		"title":"Welcome!",
+		"hero":"Anderson_Memorial_Bridge_from_Business_School",
+		"herotext":"Welcome!"
+	}</div>
+	<div id="content">
+		<h1>Welcome!</h1>
+		<p>
+			I am Jack Isaac Rabinovitch [<a href="/pages/more/names.html">dʒæk ˈaɪ.zək ɹæˈ.bɪn.oʊ.vɪtʃ</a>], I am currently a rising fifth year PhD student at the <a href="https://linguistics.fas.harvard.edu/">Department of Linguistics</a> at Harvard University, as well as a lab member at the <a href="https://projects.iq.harvard.edu/meaningandmodality/home">Meaning and Modality Lab</a> and <a href="https://fieldlinguistics.github.io/">WOLF Lab</a> at Harvard University as well as the the <a href="https://sites.bu.edu/sulalab/">SULa Lab</a> at Boston University.
+		</p>
+		<p>
+			I am interested in the ways in which people express and report attitudes and perspectives, and how we as linguists model the internal structure and meaning of attitude reports. This interest has led me to explore both the syntax and semantics of attitude embedding generally, including working on <a href="/pages/projects.html?project=cross-clausal-dependencies">cross-clausal dependencies</a>, work on <a href="/pages/projects.html?project=indexical-perspectival-shift">indexical and perspectival shift</a>, and work on <a href="/pages/projects.html?project=illocution">speech acts and embedded illocution</a>. I have worked on these projects with multiple language communities, including doing elicitations, documentation, and conservation work on Uyghur (Turkic), Manchu, Sibe (Tungusic), and Ende (Pahoturi River). In doing work with these communities, I have also grown interested in <a href="/pages/projects.html?project=documentation-pedagogy">applying linguistic theory to language conservation and pedagogy</a>.
+		</p>
+		<p>
+			In addition to my semantics and syntax work, I have also done some phonology, including work on various issues in <a href="/pages/projects.html?project=manchu-morpho-phonology">Manchu morpho-phonology</a> as well as <a href="/pages/projects.html?project=phonologically-conditioned-syntax">tonogenesis and phonologically conditioned syntax in Classical Chinese</a>.
+		</p>
+		<p>
+			In addition to my research, I also like to listen to music, make art, hike, bike, do kendo, and take care of plants. Feel free to take a look at more <a href="/pages/about-me.html">about me</a>.
+		</p>
+		<script src="/js/publications.js"></script>
+		<link rel="stylesheet" href="/css/modals.css">
+		<script>
+			fetch('/files/data/personal.json')
+                .then(res => res.json())
+                .then(res => {
+					let upcomingpubs = res.publication_data.map((x)=>{
+						return new Publication(x)
+					})
+					.filter((x)=>{
+						return x.visible === 1 && x.date !==undefined && new Date(`${x.date.year}-${x.date.month}-${x.date.day}`) > Date.now()
+					})
+					.sort((a,b)=>{
+						return daterank(b.date)-daterank(a.date)
+					})
+					if (upcomingpubs.length !== 0){
+					document.getElementById("publications-container").innerHTML = `<h2>Upcoming Presentations</h2>`
+					upcomingpubs.forEach(pub => {
+						document.getElementById("publications-container").innerHTML += pub.upcoming
+						document.getElementById("publications-container").innerHTML += pub.asModal
+					});
+					}
+				})
+                .catch(err => console.error(err));
+		</script>
+		<div id="publications-container"></div>
+	</div>
+</body>
+</html>
+

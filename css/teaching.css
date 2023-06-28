@@ -1,0 +1,12 @@
+.course-name{
+    font-weight: bold;
+}
+table {
+    min-width: 100%;
+  }
+h3{
+    font-weight: inherit;
+}
+.course-position{
+    font-style: italic;
+}

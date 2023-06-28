@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="/js/shell.js" defer></script> 
+    <script src="/js/queries.js" ></script> 
+</head>
+<body>
+	<div>If you can see this, you need to enable javascript.</div>
+	<div id="data">{
+		"title":"Service",
+		"hero":"Zakim_Bridge_from_Charlestown_Bells",
+		"herotext":"Service"
+	}</div>
+	<div id="content">
+		<div id="service-content"></div>
+        <script src="/js/service.js"></script>
+		<link rel="stylesheet" href="/css/service.css">
+		<script>
+			fetch('/files/data/personal.json')
+                .then(res => res.json())
+                .then(res => {
+                    document.getElementById("service-content").innerHTML = printService(organizeService(res))
+                })
+                .catch(err => console.error(err));
+		</script>
+	</div>
+</body>
+</html>
+

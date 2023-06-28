@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="/js/shell.js" defer></script> 
+    <script src="/js/queries.js" ></script> 
+</head>
+<body>
+	<div>If you can see this, you need to enable javascript.</div>
+	<div id="data">{
+		"title":"Teaching",
+		"hero":"Night_Time_Geese_in_Esplanade",
+		"herotext":"Teaching"
+	}</div>
+	<div id="content">
+        <link rel="stylesheet" href="/css/teaching.css">
+        <script src="/js/teaching.js"></script>
+        <script>
+            let query = qs()
+			if (query.institution !== undefined && query.class_id !== undefined && query.year !== undefined && query.semester !== undefined){
+                fetch('/files/data/personal.json')
+                .then(res => res.json())
+                .then(res => {
+                    document.title = `${findcourse(res.teaching_data,query).class_id}: ${findcourse(res.teaching_data,query).class_name} - Teaching`
+                    document.getElementById("hero-text").innerText = `${findcourse(res.teaching_data,query).class_id}: ${findcourse(res.teaching_data,query).class_name}`
+                    document.getElementById("courses-content").innerHTML = formatcourse(findcourse(res.teaching_data,query))
+                })
+                .catch(err => console.error(err));
+            } else {
+                fetch('/files/data/personal.json')
+                .then(res => res.json())
+                .then(res => {
+                    document.getElementById("courses-content").innerHTML = organize_classes(res)
+                })
+                .catch(err => console.error(err));
+            }
+        </script>
+        <div id="courses-content"></div>
+	</div>
+</body>
+</html>
+

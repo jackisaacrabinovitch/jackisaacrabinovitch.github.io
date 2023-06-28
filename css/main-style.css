@@ -1,0 +1,402 @@
+:root {
+  --dark-trans: rgba(0, 0, 0, 0.75);
+  --light-trans-text: rgba(255, 255, 255, 0.85);
+  --light-trans-background: rgba(240, 240, 240, 0.85);
+
+  --hero-gradient: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0));
+  --background-color: rgba(250, 250, 250, 1.0);
+
+  --link-color: rgba(0, 0, 140, 1.0);
+  --link-hover: rgba(35, 106, 240, 1.0);
+}
+
+body{
+  font-family: ".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.mobile-overflow{
+  overflow-x: hidden;
+}
+
+p{
+  max-width:70ch;
+  line-height: 1.5;
+}
+.profile-desc p{
+  line-height: 1;
+}
+
+.content{
+  color: var(--dark-trans);
+}
+#content{
+  padding-top: 60px;
+}
+
+/* The hero image */
+.hero-image {
+  /* Set a specific height */
+  height: 250px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--light-trans-text);
+  font-size: 40px;
+  font-weight: bold;
+  max-height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+nav {
+  font-size: 17px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+nav ul li{
+  cursor:  pointer;
+  flex: auto;
+  text-align: center;
+  height: 60px;
+}
+.navitem{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#switch-light-dark, a{  
+  text-decoration: none;
+  color: var(--link-color);
+}
+#switch-light-dark:hover, a:hover,
+#switch-light-dark:focus, a:focus{
+  color: var(--link-hover);
+}
+
+
+
+nav a, nav p{
+  color: var(--light-trans-text);
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: center;
+}
+nav ul li:hover .navitem,
+a:focus .navitem{
+  color: var(--light-trans-text);
+  background-color: var(--dark-trans);
+}
+
+
+#menubutton{
+  display: none;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menubutton p::after{
+    content: "Open 打開 ᠰᠠᡵᠠᠪᡠ";
+}
+
+
+
+@media screen and (max-width: 641px){
+  nav ul{
+    position: absolute;
+    overflow: visible;
+    flex-direction: column;
+    right: 0px;
+    top: 60px;
+    height: calc(100vh - 60px);
+    width: 100%;
+    transform: translateY(-120%);
+    transition: transform 0.5s ease;
+  }
+  nav ul li{
+    width: 100vw;
+    height: calc((100vh - 60px)/6);
+  }
+  ul .navitem{
+    height: calc((100vh - 60px)/6);
+    background-color: var(--dark-trans);
+  }
+  #menubutton{
+    display: flex;
+  }
+}
+
+
+
+.nav-opaque ul li .navitem{
+  background-color: var(--dark-trans);
+}
+
+.nav-opaque ul li:hover .navitem,
+.nav-opaque a:focus .navitem{
+  color: var(--dark-trans);
+  background-color: var(--light-trans-background);
+}
+
+
+.nav-opaque #menubutton{
+    background-color: var(--dark-trans);
+}
+
+
+
+.nav-active ul{
+  transform: translateY(0%);
+}
+
+.nav-active ul li .navitem{
+  background-color: var(--dark-trans);
+}
+
+.nav-active ul li:hover .navitem,
+.nav-active a:focus .navitem{
+  color: var(--dark-trans);
+  background-color: var(--light-trans-background);
+}
+
+
+
+.nav-active #menubutton{
+  background-color: var(--dark-trans);
+}
+
+
+.nav-active #menubutton p::after{
+    content: "Close 關上 ᡩᠠᠰᡳ";
+}
+
+
+.nav-active #menubutton:hover{
+  background-color: var(--light-trans-background);
+}
+
+.nav-active #menubutton:hover p{
+  color: var(--dark-trans);
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+  background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+#profilecontainer{
+  display: inline-block;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+  height: calc(100vh-250px);
+}
+
+#profile{
+  display: inline-block;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+  height: calc(100vh-250px);
+}
+
+.content{
+  display: inline-block;
+  width: calc(100vw - 250px);
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+div.content,.content p{
+  max-width: calc(100% - 30px);
+}
+
+#profile.sticky {
+  position: fixed;
+  top: 0px;
+}
+
+.profile-picture {
+  background-image: url("/images/profile.jpg");
+  margin: 85px 25px 25px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-size: 200px 200px;
+}
+
+.profile-name{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 25px;
+  color: var(--dark-trans);
+}
+
+.profile-desc{
+  font-size: 14px;
+  margin: 25px;
+  color: var(--dark-trans);
+  overflow-y: auto;
+  height: 300px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 641px){
+  main{
+  display: block;
+}
+#profilecontainer,#profile{
+  display: inline-block;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+}
+  .profile-picture{
+  display: inline-block;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-size: 50px 50px;
+  vertical-align: middle;
+  }
+  .profile-name{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+  }
+  .profile-desc{
+    display: block;
+    margin: 5px;
+    height: auto;
+  }
+  .profile-desc p{
+    margin: 0px;
+    display: inline;
+  }
+  .profile-desc p:not(:last-child)::after{
+    content: " ||";
+  }
+  #profile.sticky {
+  position: relative;
+  top: 0px;
+}
+#content{
+  display: block;
+  width: 100vw;
+}
+div.content, .content div, .content p{
+  padding-left: 10px;
+}
+
+}
+
+
+
+
+#switch-light-dark::after{
+  content: "Switch to Dark Mode";
+}
+
+
+
+
+
+.darkmode {
+  --hero-gradient: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.1));
+  --background-color: rgba(20, 20, 20, 1.0);
+  --link-color: rgba(135, 206, 235, 1.0);
+  --link-hover: rgba(153, 90, 255, 1.0);
+}
+
+
+
+
+.darkmode .profile-name, .darkmode .profile-desc, .darkmode .content, .darkmode #footer, .darkmode dialog{
+  color: var(--light-trans-text);
+}
+.darkmode #switch-light-dark::after{
+  content: "Switch to Light Mode";
+}
+.darkmode nav a{
+  color: var(--light-trans-text);
+}
+.darkmode main{
+  color: var(--light-trans-text);
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  color: inherit
+}
+
+
+#footer{
+  width: 100%;
+  padding: 10px;
+  min-height:60px;
+  margin: auto;
+}
+
+a{
+  cursor:pointer;
+}
+
+
+

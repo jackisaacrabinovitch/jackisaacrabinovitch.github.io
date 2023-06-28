@@ -1,0 +1,13 @@
+.position-name{
+    font-style: italic;
+}
+.org-name{
+    font-weight: bold;
+    font-style: italic;
+}
+.service-year{
+    min-width: 5em;
+}
+table {
+    min-width: 100%;
+  }
