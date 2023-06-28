@@ -1,0 +1,347 @@
+1
+00:00:01,969 --> 00:00:06,109
+Old Chinese is often reconstructed as being
+a toneless language, with syllable final segments
+
+2
+00:00:06,109 --> 00:00:10,100
+called "post-codas", which diachronically
+caused tonal contours before disappearing,
+
+3
+00:00:10,100 --> 00:00:13,800
+resulting in the contrastive tone we see in
+Middle and modern Chinese.
+
+4
+00:00:13,810 --> 00:00:17,280
+However, as the written record of Chinese
+is logographic, it is difficult to pinpoint
+
+5
+00:00:17,280 --> 00:00:21,480
+the exact time that tonogenesis occurred.
+While rhyming categories can be reconstructed
+
+6
+00:00:21,480 --> 00:00:25,500
+from poetry, evidence for the presence or
+absence of post-codas in a given text is sparse.
+
+7
+00:00:25,500 --> 00:00:30,999
+Gunkel and Ryan (2015) argues that high ranking
+phonological constraints cause marked word
+
+8
+00:00:30,999 --> 00:00:35,790
+order. Shih and Zuraw (2017) demonstrates
+that violations of the obligatory contour
+
+9
+00:00:35,790 --> 00:00:42,610
+principle, or OCP are avoided through variation
+in noun-adjective word order in Tagalog.
+
+10
+00:00:42,610 --> 00:00:46,250
+The presence of post-coda segments at word
+boundaries in a given Chinese text would affect
+
+11
+00:00:46,250 --> 00:00:51,730
+cross-word OCP violations. If cross-word OCP
+avoidance causes word order variation as it
+
+12
+00:00:51,730 --> 00:00:55,800
+does in other languages, then a given text
+should reflect the presence or absence of
+
+13
+00:00:55,800 --> 00:00:58,760
+post-codas through the frequency of OCP violations.
+
+14
+00:00:58,760 --> 00:01:03,200
+A text written when post-codas were present
+should avoid bigrams which have a post-coda
+
+15
+00:01:03,200 --> 00:01:07,890
+followed by a featurally similar initial segment,
+while a text written after tonogenesis occurred
+
+16
+00:01:07,890 --> 00:01:12,830
+would not, instead avoiding similar coda-initial
+clusters regardless of what the original intervening
+
+17
+00:01:12,830 --> 00:01:15,210
+post-coda was.
+
+18
+00:01:15,210 --> 00:01:20,220
+In this study, I look at five classical Chinese
+texts, two of which are compilations of poetry.
+
+19
+00:01:20,220 --> 00:01:24,800
+The study assumes that one of three hypotheses
+is true: the Atonal Hypothesis assumes that
+
+20
+00:01:24,810 --> 00:01:29,160
+post-codas are present in the text and effect
+OCP violations. The Non-Glottal hypothesis
+
+21
+00:01:29,170 --> 00:01:35,020
+assumes the same, with the addendum that glottal
+stop post-codas are transparent to OCP effects.
+
+22
+00:01:35,020 --> 00:01:40,500
+And the Tonal Hypothesis assumes that tonogenesis
+has occurred and post-codas are not present,
+
+23
+00:01:40,500 --> 00:01:43,780
+thus not influencing OCP violations.
+
+24
+00:01:43,780 --> 00:01:48,840
+For bigrams which lack an intervening post-coda
+segment, this study finds that cross-word
+
+25
+00:01:48,840 --> 00:01:53,210
+OCP violations are significantly higher than
+predicted through randomization for poetry,
+
+26
+00:01:53,210 --> 00:01:57,880
+suggesting that variation in word order is
+effected by OCP violations in poetic Classical
+
+27
+00:01:57,880 --> 00:01:59,160
+Chinese.
+
+28
+00:01:59,170 --> 00:02:03,330
+When considering bigrams which would have
+an intervening post-coda segment before tonogenesis,
+
+29
+00:02:03,330 --> 00:02:07,731
+OCP effects in poetry are significant when
+assuming the presence of post-codas, but are
+
+30
+00:02:07,740 --> 00:02:10,600
+borderline when assuming their absence.
+
+31
+00:02:10,600 --> 00:02:14,520
+Post-codas come in two flavors, as s /s/ and
+glottal-stop /ʔ/, and could co-occur with
+
+32
+00:02:14,530 --> 00:02:19,360
+nasal and glide codas. The glottal-stop /ʔ/
+post-coda caused a rising tone in its syllable,
+
+33
+00:02:19,360 --> 00:02:23,200
+while the s /s/ post-coda lead to a falling
+tone. These post-codas later underwent elision
+
+34
+00:02:23,200 --> 00:02:26,450
+and the resulting rising and falling tone
+syllables were distinguishable from their
+
+35
+00:02:26,450 --> 00:02:30,970
+level tone counterparts by tone alone, as
+can be seen in (8), where through tonogenesis,
+
+36
+00:02:30,970 --> 00:02:34,900
+the words rén 壬 ‘ninth’ and rèn
+妊 ‘pregnant’ form a minimal pair with
+
+37
+00:02:34,900 --> 00:02:38,232
+level tone in the former and falling tone
+in the latter.
+
+38
+00:02:38,232 --> 00:02:42,900
+The elision of post-codas would cause different
+bigrams to violate OCP constraints; (9) shows
+
+39
+00:02:42,900 --> 00:02:47,320
+that the bigram fàngxīn 放心 forms a pseudogeminate
+when post-codas are present, but does not
+
+40
+00:02:47,320 --> 00:02:50,790
+when they are absent, and vice versa for the
+bigram fàngyuè 放月.
+
+41
+00:02:50,790 --> 00:02:55,030
+When deciding between candidates, a high ranking
+OCP constraint may cause the speaker to use
+
+42
+00:02:55,030 --> 00:02:59,569
+non-canonical word order or word choice. As
+shown in (10) and (11), the difference in
+
+43
+00:02:59,569 --> 00:03:03,959
+pressures across pre- and post-tonogenesis
+Chinese would result in different surface
+
+44
+00:03:03,959 --> 00:03:07,430
+realizations, and different bigram distributions.
+
+45
+00:03:07,430 --> 00:03:12,160
+To find these OCP violations in the corpus,
+I use Zhèngzhāng (2003)'s reconstruction.
+
+46
+00:03:12,160 --> 00:03:15,599
+Because glide codas are difficult to distinguish
+from vowels, they are considered non-codas
+
+47
+00:03:15,599 --> 00:03:16,980
+for the purpose of this study.
+
+48
+00:03:16,980 --> 00:03:21,750
+As shown in (12), a character may correspond
+to multiple initials or codas and post-codas;
+
+49
+00:03:21,750 --> 00:03:25,990
+bigram types are found as the unique combination
+of first character coda readings and second
+
+50
+00:03:25,990 --> 00:03:27,820
+character initial readings.
+
+51
+00:03:27,820 --> 00:03:32,440
+Expected frequency of a given bigram type
+in a text is calculated as the frequency of
+
+52
+00:03:32,440 --> 00:03:36,740
+a given coda type multiplied by the frequency
+of a given initial type.
+
+53
+00:03:36,740 --> 00:03:40,800
+Initials and codas are grouped by place and
+manner of articulation. Given bigrams whose
+
+54
+00:03:40,800 --> 00:03:45,650
+first word coda or second word initial belong
+to multiple groups are excluded from the study.
+
+55
+00:03:45,650 --> 00:03:49,400
+Which group a coda belongs to depends on the
+hypothesis that we follow, with post-codas
+
+56
+00:03:49,400 --> 00:03:52,420
+having varying transparency across hypotheses.
+
+57
+00:03:52,420 --> 00:03:55,800
+Because they lack post-coda segments in Old
+Chinese, píng and rù tones are the same
+
+58
+00:03:55,800 --> 00:04:01,909
+across all hypotheses. For an initial test,
+bigrams which had shǎng or qù tone readings
+
+59
+00:04:01,909 --> 00:04:04,129
+for their first-characters are ignored.
+
+60
+00:04:04,129 --> 00:04:08,739
+Chi-squared χ2 tests were performed on each book.
+These tests found that cross-word OCP violations
+
+61
+00:04:08,739 --> 00:04:13,680
+occured significantly less often than predicted
+in the two poetry books, as well as the Commentary
+
+62
+00:04:13,680 --> 00:04:19,019
+of Zuo or Zuǒzhuàn, the largest prose
+text. In addition, the Classic of Mountains
+
+63
+00:04:19,019 --> 00:04:23,100
+and Seas or Shānhǎi Jīng had contradicting
+borderline results suggesting the opposite,
+
+64
+00:04:23,100 --> 00:04:25,210
+that OCP violations were sought out.
+
+65
+00:04:25,210 --> 00:04:29,919
+This can be seen in the first bar of each
+group in the figure below, where the dot represents
+
+66
+00:04:29,919 --> 00:04:33,100
+the expected rate as given through randomization.
+
+67
+00:04:33,100 --> 00:04:37,650
+When testing for all bigrams, including those
+with shǎng or qù first character readings,
+
+68
+00:04:37,650 --> 00:04:42,360
+the poetry and Zuǒzhuàn show significant
+cross-word OCP effects for all hypotheses,
+
+69
+00:04:42,360 --> 00:04:47,240
+though these results are borderline for poetry
+under the tonal hypothesis. This hints that
+
+70
+00:04:47,240 --> 00:04:51,160
+post-coda segments were present as late as
+the texts were written, for parts of the Songs
+
+71
+00:04:51,169 --> 00:04:55,340
+of the South, according to Tz’ù and Hawkes
+(1959), this would be as late as the Han Dynasty
+
+72
+00:04:55,340 --> 00:04:57,910
+- circa 200 BCE to 200 CE.
+
