@@ -1236,6 +1236,92 @@
 		},
 		{
 			"institution": "Harvard University",
+			"position": "Curriculum Design/Primary Instructor",
+			"class_name": "Elementary Manchu",
+			"class_id": "Manchu A",
+			"times": [
+				{
+					"year": 2023,
+					"semester": "Fall",
+					"sections": 1,
+					"material_folder": "2023_Manchu_A",
+					"materials": [
+						{
+							"name": "Syllabus.pdf",
+							"file_name": "09_05_handout",
+							"description": ""
+						},
+						{
+							"name": "Handout 1: 2023-09-05",
+							"file_name": "09_05_handout.pdf",
+							"description": "An introduction to the basic principles of the Manchu script. Letters: monophthong vowels, m, l, b, p"
+						},
+						{
+							"name": "Handout 2: 2023-09-07",
+							"file_name": "09_07_handout.pdf",
+							"description": "Basic Vowel Harmony. Letters: k, g, h, t, d, n"
+						},
+						{
+							"name": "Homework 1: Due 2023-09-14",
+							"file_name": "homework1.pdf",
+							"description": ""
+						},
+						{
+							"name": "Handout 3: 2023-09-12",
+							"file_name": "09_12_handout.pdf",
+							"description": "Diphthong Vowels. Letters: f, w, s, š, j, c, y, r"
+						},
+						{
+							"name": "Handout 4: 2023-09-14",
+							"file_name": "09_14_handout.pdf",
+							"description": "Loan Letters: k’, g’, h’, ts, dz, sy, ž"
+						},
+						{
+							"name": "Homework 2: Due 2023-09-21",
+							"file_name": "homework2.pdf",
+							"description": ""
+						},
+						{
+							"name": "Handout 5: 2023-09-19",
+							"file_name": "09_19_handout.pdf",
+							"description": "Basic word order, pronouns, cases"
+						},
+						{
+							"name": "Handout 6: 2023-09-21",
+							"file_name": "09_21_handout.pdf",
+							"description": "Basic Verb Forms and Verbal Vowel Harmony"
+						},
+						{
+							"name": "Homework 3: Due 2023-09-28",
+							"file_name": "homework3.pdf",
+							"description": ""
+						},
+						{
+							"name": "Vocabulary List 1: For 2023-09-26",
+							"file_name": "vocab1.pdf",
+							"description": ""
+						},
+						{
+							"name": "Handout 7: 2023-09-26",
+							"file_name": "09_26_handout.pdf",
+							"description": "Basic Converbs -me, -fi, -ci, Embedding"
+						},
+						{
+							"name": "Handout 8: 2023-09-28",
+							"file_name": "09_28_handout.pdf",
+							"description": "Basic Negation, Review"
+						},
+						{
+							"name": "Vocabulary List 2: For 2023-10-02",
+							"file_name": "vocab2.pdf",
+							"description": ""
+						}
+					]
+				}		
+			]
+		},
+		{
+			"institution": "Harvard University",
 			"position": "Teaching Fellow",
 			"class_name": "Sounds of Language",
 			"class_id": "Linguistics 105",
