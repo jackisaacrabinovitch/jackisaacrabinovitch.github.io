@@ -1248,7 +1248,7 @@
 					"materials": [
 						{
 							"name": "Syllabus.pdf",
-							"file_name": "09_05_handout",
+							"file_name": "09_05_handout.pdf",
 							"description": ""
 						},
 						{
@@ -1360,6 +1360,26 @@
 							"name": "Vocabulary List 5: Reign Names",
 							"file_name": "vocab5.pdf",
 							"description": ""
+						},
+						{
+							"name": "Handout 15: 2023-10-31",
+							"file_name": "10_31_handout.pdf",
+							"description": "Nominal Morphology I"
+						},
+						{
+							"name": "Handout 16: 2023-11-02",
+							"file_name": "11_02_handout.pdf",
+							"description": "Nominal Morphology II"
+						},
+						{
+							"name": "Vocabulary List 6: For 2023-11-7",
+							"file_name": "vocab5.pdf",
+							"description": ""
+						},
+						{
+							"name": "Handout 17: 2023-11-14",
+							"file_name": "11_14_handout.pdf",
+							"description": "Last Converbs!"
 						}
 					]
 				}		
