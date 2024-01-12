@@ -1109,6 +1109,56 @@
 					"name": "Abstract",
 					"extension": "pdf",
 					"visible": 1
+				},
+				{
+					"name": "Handout",
+					"extension": "pdf",
+					"visible": 1
+				}
+			],
+			"visible": 1,
+			"projects": [
+				"voice-thematic-roles"
+			]
+		},
+		{
+			"id": "Two_Voices_Javanese",
+			"title": "Two Voices Calling Out as One: A Split Voice Analysis of Javanese Passives",
+			"review_status": "Refereed",
+			"citation_key": "cui2024two",
+			"entry_type": "oral presentation",
+			"ris_type": "SLIDE",
+			"abstract": "Introduction: Surakarta Javanese (Austronesian) has two 'passive voice' constructions: a tak- /kok-passive and a di-passive. The tak-/kok-passive is restricted to first and second person singu- lar Agents, and is formed via the proclitics tak- (1sg) and kok- (2sg), as in (1a). tak-/kok-passives are incompatible with overt Agent-denoting DPs or by-phrases (1b). In di-passive constructions, the Agent can be realized as a by-phrase, available for any kind of Agent (2), or a postverbal bare DP, available for all Agents except 1sg/2sg (3). Even when di-passive Agents are implicit, they can be bound by higher quantifiers (4), like a pronoun, unlike the implicit Agents of typical pas- sive constructions cross-linguistically; impossible in English without an overt by-phrase. The full paradigm of passive constructions in Surakarta Javanese is schematized in (5). In this talk, we answer the following: Why are di-passives with bare DP Agents and tak-/kok-passives in complentary distribution, conditioned by the Agent's person? How do quantifiers bind implicit Agensts in Javanese passives? Analysis: We follow Harley (2013); Privoznov (2022), where voice is decomposed into v and Voice projections. We assume v is mandatory, while Voice is optional. Motivated by the avail- ability for implicit Agents to be bound by higher quantifiers in Javanese passives, we propose an indexed version of v (6c), spelt out as di-. The verbalizing head v introduces an indexed Agent, modelling the pronominal nature of the implicit Agent in Javanese. Javanese passives with bare DPs are syntactically distinguished from the ones with by-phrases by the presence/absence of a projected VoiceP — adverbs (cêpêt-cêpêt “quickly”) can be inserted between verbs and by- phrases (2), but not between verbs and a post-verbal bare DPs (3a). When the Agent a bare DP, we assume an additional VoiceP projection above vP. The Voice- head abstracts over assignment functions (6d), and merges with the vP through function applica- tion, introducing the current evaluation function as its argument (Privoznov 2022). The resulting phrase has an open entity argument, binding the Agent, which the bare DP in SpecVoiceP man- ditorily saturates (6a-i). When a 1sg/2sg pronoun is merged in SpecVoiceP, the SpecVoiceP, Voice, and v form a span (Svenonius 2019) spelled out as the proclitics tak-/kok- (6a-ii), resulting in the complementary distribution between tak-/kok- and bare DP di-passives. When the Agent is realized as a by-phrase, no VoiceP is projected; the index of v undergoes predicate abstrac- tion at some point in the structure in order to allow for reference — either through the optional by-phrase, or binding by some quantifier (6a-iii). This analysis subcategorizes Javanese passives based on the presence of a VoiceP, corre- sponding to traits observed regarding Patient and passive voice constructions in other Austrone- sian languages: constructions with VoiceP require bare DP Agents while still promoting the Patient argument, similar to Patient voice (Legate 2014; Wurmbrand 2021), while constructions without a VoiceP allow for binding via a by-phrase or an implicit Agent, similar to 'true' passive voice, except for the ability for binding by higher quantifiers.",
+			"authors": [
+				{
+					"id":"cui-jian",
+					"surname": "Cui",
+					"given_name": "Jian"
+				},
+				{
+					"id":"rabinovitch-jack",
+					"surname": "Rabinovitch",
+					"given_name": "Jack"
+				}
+			],
+			"date": {
+				"year": 2024,
+				"month": 1,
+				"day": 6
+			},
+			"language": "en",
+			"location": "New York City, New York",
+			"venue": "2024 Linguistic Society of America Annual Meeting",
+			"files": [
+				{
+					"name": "Abstract",
+					"extension": "pdf",
+					"visible": 1
+				},
+				{
+					"name": "Handout",
+					"extension": "pdf",
+					"visible": 1
 				}
 			],
 			"visible": 1,
