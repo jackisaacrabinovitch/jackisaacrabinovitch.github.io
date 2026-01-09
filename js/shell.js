@@ -82,9 +82,9 @@ var content = document.getElementById("content");
      profile.classList.add("sticky")
      content.classList.add("sticky")
     } else {
-    profile.classList.remove("sticky");
-    content.classList.remove("sticky");
-   }
+    // profile.classList.remove("sticky");
+    // content.classList.remove("sticky");
+    }
 }
 
 opaqueNav()
